@@ -2,7 +2,6 @@
 package tree;
 
 import java.util.HashMap;
-
 import model.BinaryTree;
 import model.TreeNode;
 
@@ -15,7 +14,7 @@ import model.TreeNode;
  **/
 public class MaxAndMin {
 	/**
-	 * 在二叉树中找到累加和胃指定值得最长路径长度
+	 * 在二叉树中找到累加和为指定值得最长路径长度
 	 * @param head
 	 * @param sum
 	 * @return
