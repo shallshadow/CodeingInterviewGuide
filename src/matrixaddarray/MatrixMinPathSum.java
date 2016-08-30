@@ -8,7 +8,39 @@ package matrixaddarray;
  * @version 1.0
  * @since 矩阵相关知识
  **/
-public class Matrix {
+public class MatrixMinPathSum extends MatrixProblem {
+	
+	private int sum;
+	
+	public MatrixMinPathSum(int[][] datas) {
+		super(datas);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public boolean solve() {
+		// TODO Auto-generated method stub
+		if(!super.solve()){
+			return false;
+		}
+		
+		sum = minPathSum(datas);
+		
+		return true;
+	}
+	
+	@Override
+	public String getDesc() {
+		// TODO Auto-generated method stub
+		return super.getDesc() + " MinPathSum ";
+	}
+	
+	@Override
+	public void showResult() {
+		// TODO Auto-generated method stub
+		System.out.println(getDesc() + " Result : " + this.sum);
+	}
+	
 	/**
 	 * 获取最小路径
 	 * 
@@ -16,10 +48,6 @@ public class Matrix {
 	 * @return
 	 */
 	public static int minPathSum(int[][] m) {
-		if (!isVaild(m)) {
-			return 0;
-		}
-
 		int row = m.length;
 		int col = m[0].length;
 		int[][] dp = new int[row][col];
@@ -45,24 +73,4 @@ public class Matrix {
 		return dp[row - 1][col - 1];
 	}
 
-	private static boolean isVaild(int[][] m) {
-		if (m == null || m.length == 0 || m[0] == null || m[0].length == 0) {
-			return false;
-		}
-		return true;
-	}
-
-	public static void showMatrix(int[][] m) {
-		System.out.println("Matrix:");
-		if (m == null || m.length == 0 || m[0] == null || m[0].length == 0) {
-			return;
-		}
-
-		for (int i = 0; i < m.length; i++) {
-			for (int j = 0; j < m[0].length; j++) {
-				System.out.print("   " + m[i][j] + " ");
-			}
-			System.out.println();
-		}
-	}
 }
