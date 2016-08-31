@@ -21,6 +21,13 @@ public class MainTest {
 			problems[i].solve();
 			problems[i].showResult();
 		}
+		System.out.println();
+		int[][] sortedDatas = { { 0, 1, 2, 5 }, { 2, 3, 4, 7 }, { 4, 4, 4, 8 }, { 5, 7, 7, 9 } };
+		IProblem[] sortedProblems = {new MatrixFindNumber(sortedDatas, 7)};
+		for(int i = 0; i < sortedProblems.length; i++){
+			sortedProblems[i].solve();
+			sortedProblems[i].showResult();
+		}
 	}
 
 	public static void showMatrix(int[][] m) {
