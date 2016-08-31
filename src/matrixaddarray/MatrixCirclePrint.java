@@ -3,7 +3,7 @@ package matrixaddarray;
 
 
 /**
- *
+ * @fun 转圈打印矩阵
  * @author shadow E-mail:zyydqpi@163.com
  * @Date 2016年8月30日下午4:50:13
  * @version 1.0

@@ -1,7 +1,7 @@
 
 package matrixaddarray;
 /**
- *
+ * @fun 矩阵顺时针 旋转90度
  * @author shadow E-mail:zyydqpi@163.com
  * @Date 2016年8月30日下午4:35:26
  * @version 1.0
@@ -50,6 +50,7 @@ public class MatrixRotate extends MatrixProblem {
 		int dC = m[0].length - 1;
 	
 		while (tR < dR) {
+			//行列向中间收缩
 			rotateEdge(m, tR++, tC++, dR--, dC--);
 		}
 	}

@@ -2,11 +2,11 @@
 package matrixaddarray;
 
 /**
- *
+ * @fun 求矩阵最小路径
  * @author shadow E-mail:zyydqpi@163.com
  * @Date 2016年8月27日下午8:12:17
  * @version 1.0
- * @since 矩阵相关知识
+ * @since 
  **/
 public class MatrixMinPathSum extends MatrixProblem {
 	
