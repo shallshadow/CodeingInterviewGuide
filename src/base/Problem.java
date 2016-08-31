@@ -18,7 +18,7 @@ public class Problem implements IProblem {
 	@Override
 	public String getDesc() {
 		// TODO Auto-generated method stub
-		return "The base problem";
+		return "Problem";
 	}
 
 	@Override

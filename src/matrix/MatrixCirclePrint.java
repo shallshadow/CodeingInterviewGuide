@@ -1,5 +1,5 @@
 
-package matrixaddarray;
+package matrix;
 
 
 /**

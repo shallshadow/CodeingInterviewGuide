@@ -1,5 +1,5 @@
 
-package matrixaddarray;
+package matrix;
 
 /**
  * @fun 求矩阵最小路径
