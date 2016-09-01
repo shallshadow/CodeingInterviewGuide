@@ -13,10 +13,18 @@ import base.IProblem;
 public class MainTest {
 	public static void main(String[] args) {
 		int[] datas = {5,3,4,1,2,6,7};
-		IProblem[] problems = {new MinLengthNeedSort(datas)};
+		String string = "absbw";
+		IProblem[] problems = {new MinLengthNeedSort(datas), new Palindrome(null, string), new MaxAscSubsequence(datas)};
 		for(int i = 0; i < problems.length; i++){
 			problems[i].solve();
 			problems[i].showResult();
 		}
+	}
+	public static void showArrays(int[] arr){
+		System.out.println("Arrays : ");
+		for(int i = 0; i < arr.length; i++){
+			System.out.print(" " + arr[i]);
+		}
+		System.out.println();
 	}
 }
