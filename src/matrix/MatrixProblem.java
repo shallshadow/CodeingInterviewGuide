@@ -4,7 +4,7 @@ package matrix;
 import base.Problem;
 
 /**
- *
+ * @fun 矩阵问题的基类
  * @author shadow E-mail:zyydqpi@163.com
  * @Date 2016年8月30日下午4:59:16
  * @version 1.0

@@ -14,7 +14,10 @@ public class MainTest {
 	public static void main(String[] args) {
 		int[] datas = {5,3,4,1,2,6,7};
 		String string = "absbw";
-		IProblem[] problems = {new MinLengthNeedSort(datas), new Palindrome(null, string), new MaxAscSubsequence(datas)};
+		String str1 = "1AB2345CD";
+		String str2 = "123456EF";
+		IProblem[] problems = {new MinLengthNeedSort(datas), new Palindrome(null, string), new MaxAscSubsequence(datas),
+				new MaxComSubsequence(null, str1, str2)};
 		for(int i = 0; i < problems.length; i++){
 			problems[i].solve();
 			problems[i].showResult();

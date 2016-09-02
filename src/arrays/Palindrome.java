@@ -4,7 +4,7 @@ package arrays;
 import matrix.MainTest;
 
 /**
- *
+ * @fun 添加最少字符，使字符串成为回文字符串。
  * @author shadow
  * @Date 2016年9月1日下午3:24:13
  * @version 1.0

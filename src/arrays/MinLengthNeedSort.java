@@ -2,7 +2,7 @@
 package arrays;
 
 /**
- *
+ * @fun 给定数组arr，返回arr的最长递增子序列
  * @author shadow
  * @Date 2016年8月31日上午11:33:08
  * @version 1.0
