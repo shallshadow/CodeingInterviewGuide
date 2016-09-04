@@ -8,7 +8,7 @@ import java.util.*;
  * @author shadow
  * @Date 2016年9月3日下午6:52:47
  * @version 1.0
- * @since
+ * @since7 
  **/
 public class LineUp implements ILineObserver {
 
