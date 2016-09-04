@@ -1,5 +1,5 @@
 
-package actual.combat;
+package actual.combat.lineup;
 
 import java.util.*;
 

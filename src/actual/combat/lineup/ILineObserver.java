@@ -1,5 +1,5 @@
 
-package actual.combat;
+package actual.combat.lineup;
 /**
  * @fun 观察者接口
  * @author shadow 

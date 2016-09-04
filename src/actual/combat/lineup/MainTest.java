@@ -1,5 +1,5 @@
 
-package actual.combat;
+package actual.combat.lineup;
 /**
  * @fun 设计一个排队系统，能够让每个进入队伍的用户都能看到自己在队列中所处的位置和变化,<br/>
  * 		队伍可能随时有人加入和退出；当有人退出影响到用户的位置排名时需要及时反馈到用户。<br/>
