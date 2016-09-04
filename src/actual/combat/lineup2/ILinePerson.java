@@ -15,7 +15,7 @@ public interface ILinePerson {
 	/**
 	 * 客户退出队列
 	 */
-	void left();
+	void leave();
 	/**
 	 * 通知客户操作
 	 */

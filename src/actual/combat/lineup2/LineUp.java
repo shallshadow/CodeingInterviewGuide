@@ -14,6 +14,7 @@ import java.util.Queue;
  **/
 public class LineUp implements ILineObserver {
 
+	//队列
 	private Queue<ILinePerson> queue;
 	
 	public LineUp() {
@@ -28,7 +29,7 @@ public class LineUp implements ILineObserver {
 	}
 
 	@Override
-	public void left(ILinePerson person) {
+	public void leave(ILinePerson person) {
 		// TODO Auto-generated method stub
 		queue.remove(person);
 	}
@@ -39,7 +40,7 @@ public class LineUp implements ILineObserver {
 	 * 通知各客户
 	 */
 	@Override
-	public void notice() {
+	public void notifyAllPerson() {
 		// TODO Auto-generated method stub
 		Iterator<ILinePerson> iterator = queue.iterator();
 		while(iterator.hasNext()){
@@ -47,6 +48,7 @@ public class LineUp implements ILineObserver {
 			person.notice();
 		}
 	}
+
 
 	@Override
 	public int getPosition(ILinePerson person) {

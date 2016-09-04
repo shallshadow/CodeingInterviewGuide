@@ -18,7 +18,7 @@ public interface ILineObserver {
 	 * 离开队伍
 	 * @param person 观察对象
 	 */
-	void left(ILinePerson person);
+	void leave(ILinePerson person);
 	/**
 	 * 
 	 * @param person 观察对象
@@ -27,7 +27,7 @@ public interface ILineObserver {
 	int getPosition(ILinePerson person);
 	
 	/**
-	 * 通知观察对象
+	 * 通知所有的观察对象
 	 * **/
-	void notice();
+	void notifyAllPerson();
 }

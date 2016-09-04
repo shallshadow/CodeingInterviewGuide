@@ -21,14 +21,14 @@ public class LinePerson implements ILinePerson {
 	@Override
 	public void join() {
 		// TODO Auto-generated method stub
-		this.observer.join(this);
+		observer.join(this);
 	}
 
 	@Override
-	public void left() {
+	public void leave() {
 		// TODO Auto-generated method stub
-		this.observer.left(this);
-		this.observer.notice();
+		observer.leave(this);
+		observer.notifyAllPerson();
 	}
 
 	@Override
@@ -40,7 +40,7 @@ public class LinePerson implements ILinePerson {
 	@Override
 	public int getPosition() {
 		// TODO Auto-generated method stub
-		return this.observer.getPosition(this);
+		return observer.getPosition(this);
 	}
 	
 }
