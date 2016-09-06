@@ -115,7 +115,7 @@ public class MaxTree {
 	}
 
 	/**
-	 * @Fun Take adjoin Node into HashMap
+	 * @Fun Take Node into HashMap
 	 * @param stack
 	 * @param map
 	 */

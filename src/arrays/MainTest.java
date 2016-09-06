@@ -12,6 +12,28 @@ import base.IProblem;
  **/
 public class MainTest {
 	public static void main(String[] args) {
+		testMaxLength();
+	}
+	
+	public static void testMaxLength(){
+		int[] datas = {1,2,3,1,1,5,1};
+		int k = 3;
+		IProblem[] problems = {new PosIntSubMaxLength(datas, k)};
+		for(int i = 0; i < problems.length; i++){
+			problems[i].solve();
+			problems[i].showResult();
+		}
+	}
+	
+	public static void showArrays(int[] arr){
+		System.out.println("Arrays : ");
+		for(int i = 0; i < arr.length; i++){
+			System.out.print(" " + arr[i]);
+		}
+		System.out.println();
+	}
+	
+	public static void testAll(){
 		int[] datas = {5,3,4,1,2,6,7};
 		String string = "absbw";
 		String str1 = "1AB2345CD";
@@ -22,12 +44,5 @@ public class MainTest {
 			problems[i].solve();
 			problems[i].showResult();
 		}
-	}
-	public static void showArrays(int[] arr){
-		System.out.println("Arrays : ");
-		for(int i = 0; i < arr.length; i++){
-			System.out.print(" " + arr[i]);
-		}
-		System.out.println();
 	}
 }

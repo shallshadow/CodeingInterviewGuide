@@ -1,14 +1,13 @@
+package arrays;
+
+import java.util.LinkedList;
+
+import org.omg.PortableInterceptor.IORInterceptor;
 /**
  * @author shadow
  * @Date 2016年7月29日下午9:18:59
  * @Fun 最大值减去最小值小于或等于num的子数组数量
  **/
-package stackAndQueue;
-
-import java.util.LinkedList;
-
-import org.omg.PortableInterceptor.IORInterceptor;
-
 public class MaxBetweenMinArrays {
 	public int getNum(int[] arr, int num){
 		if(arr == null || arr.length == 0){
@@ -50,6 +49,6 @@ public class MaxBetweenMinArrays {
 			i++; 
 		}
 		
-		return -1;
+		return res;
 	}
 }
