@@ -74,6 +74,7 @@ public class MaxComSubsequence extends ArrayProblem {
 		return String.valueOf(res);
 	}
 
+	//动态规划矩阵求
 	private int[][] getDp(char[] str1, char[] str2) {
 		int[][] dp = new int[str1.length][str2.length];
 		dp[0][0] = str1[0] == str2[0] ? 1 : 0;

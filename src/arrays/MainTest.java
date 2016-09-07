@@ -12,13 +12,22 @@ import base.IProblem;
  **/
 public class MainTest {
 	public static void main(String[] args) {
-		testMaxLength();
+		int[] datas = {1,3,4,6};
+		int[] datas2 = {2,5,7,9, 10};
+		testTwoSortArrayFindMedian(datas, datas2);
+		//testMaxLength(datas, datas2);
 	}
 	
-	public static void testMaxLength(){
-		int[] datas = {1,2,3,1,1,5,1};
-		int k = 3;
-		IProblem[] problems = {new PosIntSubMaxLength(datas, k)};
+	
+	public static void testTwoSortArrayFindMedian(int[] datas, int[] datas2){
+		IProblem problem = new TwoSortArrayFindMedian(datas, datas2);
+		problem.solve();
+		problem.showResult();
+	}
+	
+	public static void testMaxLength(int[] datas, int[] datas2){
+		int k = 6;
+		IProblem[] problems = {new PosIntSubMaxLength(datas, k), new IntSubMaxLength(datas2, k)};
 		for(int i = 0; i < problems.length; i++){
 			problems[i].solve();
 			problems[i].showResult();
