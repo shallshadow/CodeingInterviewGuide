@@ -4,7 +4,10 @@ package other;
 import java.util.*;
 
 /**
- *
+ * @fun 问题描述：设计一种结构，在该结构中有如下三个功能：
+ * 		insert(key):将某个key加入到该结构，做到不重复加入。
+ * 		delete(key):将原本在结构中的某个key移除。
+ * 		getRandom():等概率随机返回结构中的任何一个key。
  * @author shadow
  * @Date 2016年9月7日下午8:44:53
  * @version 1.0
@@ -22,12 +25,24 @@ public class RandomPool<K> {
 		this.size = 0;
 	}
 
+	/**
+	 * 插入非空元素
+	 * @param elem 插入的元素数组
+	 * @return 是否插入成功
+	 */
 	@SuppressWarnings("unchecked")
 	public boolean insert(K... elem) {
+		if(elem == null || elem.length == 0){
+			return false;
+		}
+		
 		if (keyIndexMap.containsKey(elem)) {
 			return false;
 		}
 		for (K e : elem) {
+			if(e == null){
+				continue;
+			}
 			indexKeyMap.put(size, e);
 			keyIndexMap.put(e, size++);
 		}
@@ -35,6 +50,11 @@ public class RandomPool<K> {
 		return true;
 	}
 
+	/**
+	 * 删除元素后，要保证集合元素索引依然连续。
+	 * @param elem 删除的元素
+	 * @return 删除成功与否
+	 */
 	public boolean delete(K elem) {
 		if (keyIndexMap.containsKey(elem)) {
 			int delIndex = keyIndexMap.get(elem);
@@ -53,6 +73,10 @@ public class RandomPool<K> {
 		return false;
 	}
 
+	/**
+	 * 
+	 * @return 等概率随机获取元素
+	 */
 	public K getRandom() {
 		if (this.size == 0) {
 			return null;

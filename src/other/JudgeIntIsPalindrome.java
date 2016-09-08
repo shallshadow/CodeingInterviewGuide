@@ -13,7 +13,11 @@ public class JudgeIntIsPalindrome {
 		System.err.println(palindrome.isPalindrom(132311));
 	}
 	
-	
+	/**
+	 * Judge the integer from two sides.
+	 * @param n
+	 * @return
+	 */
 	public boolean isPalindrom(int n){
 		if(n == Integer.MIN_VALUE){
 			return false;

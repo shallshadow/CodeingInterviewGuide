@@ -15,6 +15,12 @@ public class CountOneAppearTimes {
 		System.out.println("Times : " + appearTimes.solve1(20));
 	}
 
+	/**
+	 * Time complexity:O(logN*logN)
+	 * Space complexity:O(1);
+	 * @param range
+	 * @return
+	 */
 	public int solve2(int range) {
 		if (range < 1) {
 			return 0;
@@ -27,10 +33,10 @@ public class CountOneAppearTimes {
 		System.out.println("temp : " + tmp);
 		// The biggest digit number.
 		int first = range / tmp;
-		// 
+		// only the biggest digit number is 1
 		int firstOneNum = first == 1 ? range % tmp + 1 : tmp;
 		System.out.println("firstOneNum : " + firstOneNum);
-		
+		// only the other digit number is 1
 		int otherOneNum = first * (len - 1) * (tmp / 10);
 		System.out.println("OtherOneNum : " + otherOneNum);
 		return firstOneNum + otherOneNum + solve2(range % tmp);
@@ -50,6 +56,11 @@ public class CountOneAppearTimes {
 		return (int) Math.pow(10, base);
 	}
 
+	/**
+	 * Time complexity:O(NlogN)
+	 * @param range
+	 * @return
+	 */
 	public int solve1(int range) {
 		int sum = 0;
 		for (int i = 1; i <= range; i++) {

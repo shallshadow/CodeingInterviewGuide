@@ -15,7 +15,7 @@ import java.util.HashSet;
  **/
 public class UnformedSum {
 	public static void main(String[] args) {
-		int[] arr = { 1, 3, 2, 5, 100};
+		int[] arr = { 1, 3, 2, 5, 15};
 
 		UnformedSum sum = new UnformedSum();
 		System.out.println("Min sum 1: " + sum.unfromedSum(arr));
@@ -69,14 +69,12 @@ public class UnformedSum {
 		boolean[] dp = new boolean[sum + 1];
 		dp[0] = true;
 		for (int i = 0; i != arr.length; i++) {
-			//循环遍历数组
+			//自sum依次减1，判断是否出现在已在数组中的和。
 			for (int j = sum; j >= arr[i]; j--) {
 				dp[j] = dp[j - arr[i]] ? true : dp[j];
 			}
 		}
 		
-		
-
 		for (int i = min; i != dp.length; i++) {
 			if (!dp[i]) {
 				return i;
@@ -91,9 +89,10 @@ public class UnformedSum {
 			return 1;
 		}
 		HashSet<Integer> set = new HashSet<>();
-		process(arr, 0, 0, set);
+		process(arr, arr.length, 0, set);
 		int min = Integer.MAX_VALUE;
 		int max = Integer.MIN_VALUE;
+		//count max and min
 		for (Integer integer : set) {
 			if (min > integer) {
 				min = integer;
@@ -125,16 +124,17 @@ public class UnformedSum {
 	 *            记录数组和
 	 */
 	private void process(int[] arr, int i, int sum, HashSet<Integer> set) {
-		if (i == arr.length) {
+		if (i == 0) {
 			set.add(sum);
+			System.out.println("Sum : " + sum);
 			return;
 		}
 
-		// 包含arr[i]的添加 1
-		process(arr, i + 1, sum, set);
+		// 包含arr[i]的添加 
+		process(arr, i - 1, sum, set);
 		// 不包含arr[i]的添加
 		//System.out.println("1 i : " + (i + 1) + " sum : " + sum);
-		process(arr, i + 1, sum + arr[i], set);
+		process(arr, i - 1, sum + arr[i - 1], set);
 		//System.out.println("2 i : " + (i + 1) + " sum : " + sum);
 	}
 }
