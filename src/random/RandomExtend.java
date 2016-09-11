@@ -1,5 +1,5 @@
 
-package other;
+package random;
 
 /**
  * @fun 问题描述：
@@ -35,12 +35,21 @@ public class RandomExtend {
 		return (int)(Math.random() * m) + 1;
 	}	
 
+	/**
+	 * 问题三算法，目前不兼容(m * m - 1) / n * n == 0的情况，需要再多考虑。
+	 * @param n
+	 * @param m
+	 * @return
+	 */
 	public int rand1ToN(int n, int m){
 		if(n <= 1 || m <= 1){
 			return 1;
 		}
 		int res = 0;
 		int critical = (m * m - 1) / n * n;
+		if(critical == 0){
+			return -1;
+		}
 		if(n > m){
 			do{
 				res = (rand1ToM(m) - 1) * m + rand1ToM(m) - 1;

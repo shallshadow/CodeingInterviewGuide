@@ -1,5 +1,5 @@
 
-package other;
+package random;
 
 /**
  * @fun 问题描述：给定一个等概率随机产生1~M的随机函数rand1ToM实现等概率随机产生1~N的随机函数rand1ToN。
