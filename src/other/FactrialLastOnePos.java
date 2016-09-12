@@ -37,7 +37,7 @@ public class FactrialLastOnePos {
 		return res;
 	}
 	/**
-	 * 公式：Z = N - M，其中Z为所求的最低位出现的位置，N为阶乘数，M为N转换成二进制数表达式中1的个数
+	 * 公式：Z = N - M，其中Z为所求的最低位出现的位置，N为阶乘数，M为N转换成二进制数表达式中1的个数。<br/>
 	 * @param num
 	 * @return
 	 * 时间复杂度LogN
