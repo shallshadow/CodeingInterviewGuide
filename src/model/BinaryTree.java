@@ -1,8 +1,10 @@
 
 package model;
 
+import java.util.ArrayList;
 import java.util.Deque;
 import java.util.LinkedList;
+import java.util.List;
 
 /**
  *
@@ -119,10 +121,11 @@ public class BinaryTree {
 	/**
 	 * 非递归实现二叉树中序遍历
 	 */
-	public void inOrder() {
+	public List<Integer> inOrder() {
 		if (root == null) {
-			return;
+			return null;
 		}
+		List<Integer> list = new ArrayList<>();
 		TreeNode temp = root;
 		Deque<TreeNode> deque = new LinkedList<>();
 		while (!deque.isEmpty() || temp != null) {
@@ -132,9 +135,12 @@ public class BinaryTree {
 			} else {
 				temp = deque.pop();
 				System.out.print(temp.getValue() + ",");
+				list.add(temp.getValue());
 				temp = temp.getRight();
 			}
 		}
+		
+		return list;
 	}
 
 	/**
