@@ -46,5 +46,8 @@ public class TreeSearchTest {
 		System.out.println();
 		
 		head.printTree(head.getRoot());
+		
+		System.out.println("height : " + head.getHeight());
+		System.out.println("height 1¡¡: " + head.getHeight(9));
 	}
 }

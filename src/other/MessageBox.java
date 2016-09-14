@@ -14,14 +14,16 @@ import model.LinkNode;
  * @Date 2016年9月12日下午7:59:33
  * @version 1.0
  * @since
+ * @description 
+ * 
  **/
 public class MessageBox {
 
 	public static void main(String[] args) {
 		MessageBox box = new MessageBox();
 		int arr[] = new int[20];
-		for (int i = arr.length - 1; i > 0; i--) {
-			arr[i] = i;
+		for (int i = 0; i < 20; i++) {
+			arr[i] = i + 1;
 		}
 
 		int[] randArr = box.outOfOrder(arr);
@@ -33,6 +35,8 @@ public class MessageBox {
 		for (int i = 0; i < arr.length; i++) {
 			box.receive(randArr[i]);
 		}
+		System.out.println();
+		box.showHeadMap();
 	}
 
 	/**
@@ -60,8 +64,13 @@ public class MessageBox {
 		}
 		return out;
 	}
-
+	/**
+	 * 存放当前头节点
+	 */
 	private HashMap<Integer, LinkNode> headMap;
+	/**
+	 * 存放当前尾节点
+	 */
 	private HashMap<Integer, LinkNode> tailMap;
 
 	private int lastPrint;
@@ -80,13 +89,14 @@ public class MessageBox {
 
 		LinkNode cur = new LinkNode(num);
 		headMap.put(num, cur);
-		headMap.put(num, cur);
-
+		tailMap.put(num, cur);
+		//判断尾节点map中是否恰好有一个小一的节点
 		if (tailMap.containsKey(num - 1)) {
-			tailMap.get(num - 1).getNext().setNext(cur);
-			tailMap.remove(num);
+			tailMap.get(num - 1).setNext(cur);
+			tailMap.remove(num - 1);
 			headMap.remove(num);
 		}
+		//判断头节点map中是否恰好有一个大一的节点
 		if (headMap.containsKey(num + 1)) {
 			cur.setNext(headMap.get(num + 1));
 			tailMap.remove(num);
@@ -96,6 +106,13 @@ public class MessageBox {
 		if (headMap.containsKey(lastPrint + 1)) {
 			print();
 		}
+	}
+	
+	private void showHeadMap(){
+		for(Integer integer : headMap.keySet()){
+			System.out.print(" i : " + integer);
+		}
+		System.out.println();
 	}
 
 	private void print() {

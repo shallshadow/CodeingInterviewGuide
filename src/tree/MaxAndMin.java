@@ -6,7 +6,7 @@ import model.BinaryTree;
 import model.TreeNode;
 
 /**
- *
+ * @fun 在儿叉树中找到累积和为指定值得最长路径长度
  * @author shadow E-mail:zyydqpi@163.com
  * @Date 2016年8月27日下午7:42:21
  * @version 1.0

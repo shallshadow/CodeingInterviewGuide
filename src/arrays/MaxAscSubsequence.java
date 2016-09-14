@@ -89,7 +89,7 @@ public class MaxAscSubsequence extends ArrayProblem {
 	 * @param arr
 	 * @return
 	 */
-	private int[] getDp1(int[] arr) {
+	public int[] getDp1(int[] arr) {
 		int[] dp = new int[arr.length];
 
 		for (int i = 0; i < arr.length; i++) {

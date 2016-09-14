@@ -1,8 +1,6 @@
 
 package arrays;
 
-import javax.lang.model.element.Element;
-
 /**
  *
  * @author shadow 

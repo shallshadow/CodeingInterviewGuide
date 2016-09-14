@@ -1,8 +1,6 @@
 
 package arrays;
 
-import java.util.Random;
-
 /**
  *
  * @author shadow 

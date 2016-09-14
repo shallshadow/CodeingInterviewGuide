@@ -16,9 +16,9 @@ public class BinaryTree {
 
 	public BinaryTree() {
 		root = null;
-		int[] datas = { 3, 5, 6, 8, 9, 1, 2 };
+		int[] datas = { 3, 5, 6, 8, 9, 1, 2 ,4,15,36,24};
 		for (int i = 0; i < datas.length; i++) {
-			this.buildTree(root, datas[i]);
+			this.insert(root, datas[i]);
 		}
 	}
 
@@ -27,12 +27,49 @@ public class BinaryTree {
 	}
 
 	/**
-	 * 递归创建二叉树
+	 * 
+	 * @return 树的高度
+	 */
+	public int getHeight() {
+		if (this.root == null) {
+			return 0;
+		}
+
+		return getHeight(this.root);
+	}
+
+	private int getHeight(TreeNode node) {
+		return node == null ? 0 : 1 + Math.max(getHeight(node.getLeft()), getHeight(node.getRight()));
+	}
+
+	/**
+	 * 
+	 * @param value
+	 * @return 树中value元素所在的最长路径
+	 */
+	public int getHeight(int value) {
+		return getHeight(this.root, 1, value);
+	}
+
+	private int getHeight(TreeNode node, int level, int data) {
+		if (node == null) {
+			return -1;
+		}
+
+		if (node.getValue() == data) {
+			return level;
+		}
+
+		return Math.max(getHeight(node.getLeft(), level + 1, data), getHeight(node.getRight(), level + 1, data));
+	}
+
+	/**
+	 * 递归创建搜索二叉树
 	 * 
 	 * @param node
 	 * @param data
 	 */
-	public void buildTree(TreeNode node, int data) {
+	public void insert(TreeNode node, int data) {
 		if (root == null) {
 			root = new TreeNode(data);
 		} else {
@@ -40,17 +77,19 @@ public class BinaryTree {
 				if (node.getLeft() == null) {
 					node.setLeft(new TreeNode(data));
 				} else {
-					buildTree(node.getLeft(), data);
+					insert(node.getLeft(), data);
 				}
 			} else {
 				if (node.getRight() == null) {
 					node.setRight(new TreeNode(data));
 				} else {
-					buildTree(node.getRight(), data);
+					insert(node.getRight(), data);
 				}
 			}
 		}
 	}
+	
+
 
 	/**
 	 * 非递归实现二叉树先序遍历
@@ -388,6 +427,7 @@ public class BinaryTree {
 
 	/**
 	 * 按照正常树结构打印二叉树
+	 * 
 	 * @param head
 	 */
 	public void printTree(TreeNode head) {
