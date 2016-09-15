@@ -95,11 +95,13 @@ public class BinaryTree {
 
 	/**
 	 * 非递归实现二叉树先序遍历
+	 * @return 元素列表
 	 */
-	public void preOrder() {
+	public List<Integer> preOrder() {
 		if (root == null) {
-			return;
+			return null;
 		}
+		List<Integer> list = new ArrayList<>();
 		TreeNode temp = root;
 		Deque<TreeNode> deque = new LinkedList<>();
 		deque.push(temp);
@@ -114,12 +116,14 @@ public class BinaryTree {
 				deque.push(temp.getLeft());
 			}
 
-			System.out.print(temp.getValue() + ",");
+			list.add(temp.getValue());
 		}
+		return list;
 	}
 
 	/**
 	 * 非递归实现二叉树中序遍历
+	 * @return 元素列表
 	 */
 	public List<Integer> inOrder() {
 		if (root == null) {
@@ -134,7 +138,7 @@ public class BinaryTree {
 				temp = temp.getLeft();
 			} else {
 				temp = deque.pop();
-				System.out.print(temp.getValue() + ",");
+				//System.out.print(temp.getValue() + ",");
 				list.add(temp.getValue());
 				temp = temp.getRight();
 			}
@@ -145,11 +149,13 @@ public class BinaryTree {
 
 	/**
 	 * 非递归实现后序遍历
+	 * @return 元素列表
 	 */
-	public void postOrder() {
+	public List<Integer> postOrder() {
 		if (root == null) {
-			return;
+			return null;
 		}
+		List<Integer> list = new ArrayList<>();
 		TreeNode temp = root;
 		Deque<TreeNode> deque = new LinkedList<>();
 		Deque<TreeNode> deque2 = new LinkedList<>();
@@ -168,8 +174,10 @@ public class BinaryTree {
 			}
 		}
 		while (!deque2.isEmpty()) {
-			System.out.print(deque2.pop().getValue() + ",");
+			list.add(deque2.pop().getValue());
 		}
+		
+		return list;
 	}
 
 	/**
