@@ -40,6 +40,11 @@ public class BinaryTree {
 		return getHeight(this.root);
 	}
 
+	/**
+	 * 
+	 * @param node
+	 * @return
+	 */
 	private int getHeight(TreeNode node) {
 		return node == null ? 0 : 1 + Math.max(getHeight(node.getLeft()), getHeight(node.getRight()));
 	}
@@ -62,7 +67,7 @@ public class BinaryTree {
 			return level;
 		}
 
-		return Math.max(getHeight(node.getLeft(), level + 1, data), getHeight(node.getRight(), level + 1, data));
+		return Math.max(getHeight(node.getLeft(), level + 1, data), getHeight(node.getRight(), level + 1 , data));
 	}
 
 	/**
@@ -218,6 +223,7 @@ public class BinaryTree {
 		System.out.print(head.getValue() + ",");
 		preOrderTravers(head.getLeft());
 		preOrderTravers(head.getRight());
+		
 	}
 
 	/**
@@ -269,17 +275,18 @@ public class BinaryTree {
 		while (cur != null) {
 			cur2 = cur.getLeft();
 			if (cur2 != null) {
-
 				while (cur2.getRight() != null && cur2.getRight() != cur) {
 					cur2 = cur2.getRight();
 				}
 
 				if (cur2.getRight() == null) {
+					//将最右边的空指针指向当前结点
 					cur2.setRight(cur);
 					System.out.print(cur.getValue() + ",");
 					cur = cur.getLeft();
 					continue;
 				} else {
+					//还原右边
 					cur2.setRight(null);
 				}
 			} else {
@@ -364,7 +371,6 @@ public class BinaryTree {
 				while (cur2.getRight() != null && cur2.getRight() != cur) {
 					cur2 = cur2.getRight();
 				}
-
 				if (cur2.getRight() == null) {
 					cur2.setRight(cur);
 					cur = cur.getLeft();
