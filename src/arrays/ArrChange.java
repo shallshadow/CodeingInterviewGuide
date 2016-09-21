@@ -11,9 +11,37 @@ package arrays;
  **/
 public class ArrChange {
 	public static void main(String[] args) {
-		int arr[] = { 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 };
+		int arr[] = { 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 };
 		// new ArrChange1().getChange(arr);
 		new ArrChange().change(arr);
+	}
+
+	/**
+	 * ERROR
+	 * 
+	 */
+	public void change3(int[] arr) {
+		int pre = 0;
+		int count = 1;
+		int maxIndex = 0;
+		//reverse(arr, 0, arr.length - 1);
+		for (int i = 0; i < arr.length / 2; i++) {
+			pre = arr[i];
+			if(i + count == arr.length){
+				
+			}else{
+				if(i % 2 == 1){
+					count = count + 1;
+				}			
+				maxIndex = arr.length - (count - 1) - 1;
+				arr[i] = arr[maxIndex];
+				arr[maxIndex] = pre;
+				if(count == 0){
+					
+				}
+
+			}
+		}
 	}
 
 	/**
@@ -23,7 +51,7 @@ public class ArrChange {
 	 * @return
 	 */
 	public void change(int[] arr) {
-		change2(arr);
+		change3(arr);
 		for (int i = 0; i < arr.length; i++) {
 			System.out.print(arr[i] + ", ");
 		}
