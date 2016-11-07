@@ -7,21 +7,24 @@
 
 package matrix;
 
+import base.IOperate;
+import java.math.BigDecimal;
+
 /**
  * The basic of Matrix and some util operation
  * */
-public class Matrix<T> {
-    private T[][] datas;
+public class Matrix<T extends Number> {
+    private Object[][] datas;
     private String message;
     public final int DEFAULT = 10;
 
     public Matrix() {
-        this.datas = (T[][]) new Object[DEFAULT][DEFAULT];
+        this.datas = new Object[DEFAULT][DEFAULT];
         this.message = " Default Matrix";
     }
 
     public Matrix(int m, int n) {
-        this.datas = (T[][]) new Object[m][n];
+        this.datas = new Object[m][n];
         this.message = " " + m + "*" + n + " Matrix";
     }
 
@@ -30,11 +33,11 @@ public class Matrix<T> {
     }
 
     public Matrix(T[][] datas) {
-        this.datas = datas;
+        this.datas = (Object[][]) datas;
         this.message = " " + this.datas.length + " * " + this.datas[0].length + " Matrix";
     }
 
-    public Matrix multiply(Matrix m) throws Exception {
+    public Matrix multiply(Matrix<T> m, IOperate<T> ope) throws Exception {
         if (this.getRowCount() != m.getColumnCount()) { 
             throw new Exception("The illegal Matrix multiply");
         }
@@ -42,19 +45,33 @@ public class Matrix<T> {
         Matrix product = new Matrix(this.getRowCount(), m.getColumnCount());
         for(int row = 0; row < this.getRowCount(); row++) {
             for (int col = 0; col < m.getColumnCount(); col++) {
-                 int sum = 0;
+                 T sum = null;
                  for(int r = 0; r < m.getColumnCount(); r++) {
-                    Number a = (Integer)this.get(row, r);
-                    Number b = (Integer)m.get(r, col);
-                    sum += a.intValue() * b.intValue();
+                    T a = this.get(row, r);
+                    T b = m.get(r, col);
+                    sum = ope.plus(ope.operate(a, b), sum); 
+                    //System.out.println("Sum : " + sum);
                  }
-
                  product.add(row, col, sum);
-
             }
         }
 
+        //System.out.println(this.getRowCount() + " : " + m.getColumnCount());
+
         return product;
+    }
+
+    public Matrix multiply(Matrix<T> m) throws Exception {
+        return multiply(m,new IOperate<T>() {
+            public T operate(T elem1, T elem2) {
+                BigDecimal big1 = new BigDecimal(elem1.toString());
+                BigDecimal big2 = new BigDecimal(elem2.toString());
+                BigDecimal big3 = big1.multiply(big2);
+                //System.out.println("Big : " + big3);
+                return (T)big3;
+            }
+        });
+                
     }
 
 
@@ -103,17 +120,20 @@ public class Matrix<T> {
             return null;
         }
 
-        return this.datas[row][col];
+        return (T)this.datas[row][col];
+    }
+
+    public T[][] toArray() {
+        return (T[][]) this.datas;
     }
 
     public String toString() {
         StringBuffer sb = new StringBuffer();
         sb.append(this.message + "\n");
 
-        for (int row = 0; row < this.datas.length; row++) {
+        for (int row = 0; row < this.getRowCount(); row++) {
             sb.append("[ ");
-            for (int col = 0; col < this.datas[0].length; col++) {
-
+            for (int col = 0; col < this.getColumnCount(); col++) {
                 sb.append(this.datas[row][col].toString());
                 sb.append(",");
             }

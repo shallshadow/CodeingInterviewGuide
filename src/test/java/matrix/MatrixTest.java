@@ -18,25 +18,35 @@ public class MatrixTest {
 
     @Before
     public void init() {
-        m = new Matrix<Integer>(4, 4);
+        m = new Matrix<Number>(4, 4);
     }
+
     @Test
-    public void test() {
-        m.addAll(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1);
-        System.out.println(m.toString());
+    public void testInt() throws Exception {
+        m.addAll(1, 2, 3, 4, 5, -1, 2, -12, 10, 11, -11, -21, 31, 4, 21, -11);
+        System.out.println("Matrix m \n" + m.toString());
 
         Matrix m2 = m.getSub(1, 2, 1, 2);
-        System.out.println(m2.toString());
+        System.out.println("Matrix m2 : \n" + m2.toString());
 
         Matrix m3 = m.getSub(0, 1, 0, 1);
-        System.out.println(m3.toString());
+        System.out.println("Matrix m3 : \n" + m3.toString());
+        Matrix m4 = m2.multiply(m3);
+        System.out.println("Matrix m2 * m3 :\n " + m4.toString());
+    }
 
-        try {
-            Matrix m4 = m3.multiply(m2);
-            System.out.println(m4.toString());
-        }catch(Exception exp) {
-            System.out.println(exp.getMessage());
-        }
+    @Test
+    public void testDouble() throws Exception {
+        m.addAll(1.1, 1.3, 1.4, 1.5, 1.9, -1.1, -2.2, -1.3, -1.4, -1.5, 1.7, 1.8, 2.9, 1.2, 1.5, -0.4);
+        System.out.println("Matrix m \n" + m.toString());
+
+        Matrix m2 = m.getSub(1, 2, 1, 2);
+        System.out.println("Matrix m2 : \n" + m2.toString());
+
+        Matrix m3 = m.getSub(0, 1, 0, 1);
+        System.out.println("Matrix m3 : \n" + m3.toString());
+        Matrix m4 = m2.multiply(m3);
+        System.out.println("Matrix m2 * m3 :\n " + m4.toString());
     }
 }
 
