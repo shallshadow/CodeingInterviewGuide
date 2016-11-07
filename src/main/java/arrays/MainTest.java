@@ -14,17 +14,17 @@ public class MainTest {
 	public static void main(String[] args) {
 		int[] datas = {1,3,4,6};
 		int[] datas2 = {2,5,7,9, 10};
-		testTwoSortArrayFindMedian(datas, datas2);
+		//testTwoSortArrayFindMedian(datas, datas2);
 		//testMaxLength(datas, datas2);
 	}
 	
-	
+/*	
 	public static void testTwoSortArrayFindMedian(int[] datas, int[] datas2){
 		IProblem problem = new TwoSortArrayFindMedian(datas, datas2);
 		problem.solve();
 		problem.showResult();
 	}
-	
+*/	
 	public static void testMaxLength(int[] datas, int[] datas2){
 		int k = 6;
 		IProblem[] problems = {new PosIntSubMaxLength(datas, k), new IntSubMaxLength(datas2, k)};
