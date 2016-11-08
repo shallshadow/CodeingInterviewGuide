@@ -37,7 +37,7 @@ public class Matrix<T extends Number> {
         this.message = " " + this.datas.length + " * " + this.datas[0].length + " Matrix";
     }
 
-    public Matrix multiply(Matrix<T> m, IOperate<T> ope) throws Exception {
+    public Matrix<T> multiply(Matrix<T> m, IOperate<T> ope) throws Exception {
         if (this.getRowCount() != m.getColumnCount()) { 
             throw new Exception("The illegal Matrix multiply");
         }
@@ -61,7 +61,52 @@ public class Matrix<T extends Number> {
         return product;
     }
 
-    public Matrix multiply(Matrix<T> m) throws Exception {
+    public Matrix<T> plus(Matrix<T> m) throws Exception {
+        return operate(m, new IOperate<T>(){});
+    }
+
+    public Matrix<T> reduce(Matrix<T> m) throws Exception {
+        return operate(m, new IOperate<T>() {
+            public T plus(T elem1, T elem2) {
+
+                T sum = null;
+                if(elem1 == null) {
+                    return elem2;
+                }else if(elem2 == null) {
+                    return elem1;
+                }
+
+                BigDecimal bigdec1 = new BigDecimal(elem1.toString());
+                BigDecimal bigdec2 = new BigDecimal(elem2.toString());
+                BigDecimal bigdec3 = bigdec1.subtract(bigdec2);
+                //        System.out.println("BigDec3 : " + bigdec3);
+                sum = (T)bigdec3;
+
+                return sum;
+            }
+        });
+    }
+
+    private Matrix<T> operate(Matrix<T> m, IOperate<T> ope) throws Exception {
+        if(this.getRowCount() != m.getRowCount() || this.getColumnCount() == m.getColumnCount()) {
+            throw new Exception("The illegal Matrix multiply");
+        }
+
+        Matrix<T> res = new Matrix<>();
+        for (int row = 0; row < this.getRowCount(); row++) {
+            for (int col = 0; col < this.getColumnCount(); col++) {
+                res.add(row, col, ope.plus(this.get(row, col), m.get(row, col)));
+            }
+
+        }
+
+        return res;
+    }
+
+    /**
+     * Matrix Common Multiply Algorithm
+     * */
+    public Matrix<T> multiply(Matrix<T> m) throws Exception {
         return multiply(m,new IOperate<T>() {
             public T operate(T elem1, T elem2) {
                 BigDecimal big1 = new BigDecimal(elem1.toString());
@@ -74,6 +119,25 @@ public class Matrix<T extends Number> {
                 
     }
 
+    @Override
+    public boolean equals(Object object) {
+        Matrix m = (Matrix) object;
+        if(this.getRowCount() != m.getRowCount() || this.getColumnCount() != m.getColumnCount()) {
+            return false;
+        }
+
+        for (int row = 0; row < this.getRowCount(); row++) {
+            for (int col = 0; col < this.getColumnCount(); col++) {
+                if (!this.get(row, col).toString().equals(m.get(row, col).toString())){
+                    System.out.print("row : " + row + " , col : " + col);
+                    return false;
+                }
+            }
+        }
+
+        return true;
+
+    }
 
     public Matrix getSub(int srow,int erow, int scol, int ecol) {
         Matrix m = new Matrix(erow - srow + 1, ecol - scol + 1);

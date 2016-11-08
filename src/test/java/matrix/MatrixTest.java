@@ -7,20 +7,75 @@
 
 package matrix.test;
 
+import java.util.List;
+import java.util.ArrayList;
 import org.junit.Test;
 import org.junit.Before;
-import static org.junit.Assert.assertEquals;
+import org.junit.runners.Parameterized;
+import org.junit.runners.Parameterized.Parameters;
+import org.junit.runner.RunWith;
+import static org.junit.Assert.*;
 
 import matrix.*;
 
+@RunWith(Parameterized.class)
 public class MatrixTest {
-    private Matrix m;
+    private Matrix<Number> mInt;
+    private Matrix<Number> mDouble;
+    private Matrix<Number> expected;
 
-    @Before
-    public void init() {
-        m = new Matrix<Number>(4, 4);
+    private static Object[][][] datas = { 
+        {
+            {1, 2},
+            {1, 3}
+        },
+        {
+            {-1, -2},
+            {2, 3}
+        },
+        {
+            {3, 4},
+            {5, 7}
+        }
+    };
+
+    public MatrixTest(Matrix mInt, Matrix mDouble, Matrix expected) {
+        this.mInt = mInt;
+        this.mDouble = mDouble;
+        this.expected = expected;
     }
 
+    @Parameterized.Parameters
+    public static List<Object[]> getMatrixDatas() {
+        Matrix<Number>[] ms = new Matrix[datas.length];    
+        for(int i = 0; i< ms.length; i++) {
+            ms[i] = new Matrix<>(datas[0].length, datas[0][0].length);
+        }
+
+        for (int i = 0; i < ms.length; i++) {
+            for (int row = 0; row < datas[0].length; row++) {
+                for (int col = 0; col < datas[0][0].length; col++) {
+                    ms[i].add(row, col, (Number)datas[i][row][col]);
+                }
+            }
+        }
+
+        List<Object[]> list = new ArrayList<>();
+        list.add(ms);
+        return list;
+        
+    }
+
+    @Test
+    public void testshow() throws Exception {
+        System.out.println("MatrixInt : " + mInt.toString());
+        System.out.println("MatrixDouble: " + mDouble.toString());
+        Matrix result = mInt.multiply(mDouble);
+        System.out.println("Matrix Result : " + result.toString());
+        System.out.println("Matrix Result2 : " + expected.toString());
+        assertTrue(result.equals(expected));
+    }
+    /*
     @Test
     public void testInt() throws Exception {
         m.addAll(1, 2, 3, 4, 5, -1, 2, -12, 10, 11, -11, -21, 31, 4, 21, -11);
@@ -48,5 +103,6 @@ public class MatrixTest {
         Matrix m4 = m2.multiply(m3);
         System.out.println("Matrix m2 * m3 :\n " + m4.toString());
     }
+    */
 }
 
