@@ -1,8 +1,8 @@
 /*************************************************************************
-  > File Name: src/test/java/matrix/MatrixTest.java
-  > Author: shall
-  > Mail: zyydqpi@163.com
-  > Created Time: Mon 07 Nov 2016 07:52:45 AM CST
+	> File Name: src/test/java/matrix/MatrixStrassenTest
+	> Author: shall
+	> Mail: zyydqpi@163.com
+	> Created Time: Wed 09 Nov 2016 08:43:00 AM CST
  ************************************************************************/
 
 package matrix.test;
@@ -19,30 +19,38 @@ import static org.junit.Assert.*;
 import matrix.*;
 
 @RunWith(Parameterized.class)
-public class MatrixTest {
+public class MatrixStrassenTest {
     private Matrix<Number> mInt;
     private Matrix<Number> mDouble;
     private Matrix<Number> expected;
+    private MatrixStrassen strassen;
 
     private static Object[][][] datas = { 
         {
-            {1, 2},
-            {1, 3}
+            {1, 2, 4, 1},
+            {1, 3, 5, 2},
+            {1, 2, 3, 3},
+            {1, 1, 1, 1}
         },
         {
-            {-1, -2},
-            {2, 3}
+            {-1, -2, 5, 1},
+            {2, 3, 6, 2},
+            {1, 2, 3, 1},
+            {1, 1, 1, 3}
         },
         {
-            {3, 4},
-            {5, 7}
+            {3, 4, 1, 1},
+            {5, 7, 2, 1},
+            {1, 2, 3, 2},
+            {1, 1, 1, 3}
         }
     };
 
-    public MatrixTest(Matrix mInt, Matrix mDouble, Matrix expected) {
+    public MatrixStrassenTest(Matrix mInt, Matrix mDouble, Matrix expected) {
         this.mInt = mInt;
         this.mDouble = mDouble;
         this.expected = expected;
+        this.strassen = new MatrixStrassen();
     }
 
     @Parameterized.Parameters
@@ -90,10 +98,11 @@ public class MatrixTest {
     public void testshow() throws Exception {
         System.out.println("MatrixInt : " + mInt.toString());
         System.out.println("MatrixDouble: " + mDouble.toString());
-        Matrix result = mInt.multiply(mDouble);
+        Matrix result2 = mInt.multiply(mDouble);
+        Matrix result = this.strassen.multiply(mInt, mDouble);
         System.out.println("Matrix Result : " + result.toString());
-        System.out.println("Matrix Result2 : " + expected.toString());
-        assertTrue(result.equals(expected));
+        System.out.println("Matrix Result2 : " + result2.toString());
+        assertTrue(result.equals(result2));
     }
     /*
     @Test
@@ -125,4 +134,3 @@ public class MatrixTest {
     }
     */
 }
-

@@ -18,10 +18,12 @@ public class Matrix<T extends Number> {
     private String message;
     public final int DEFAULT = 10;
 
+    /*
     public Matrix() {
         this.datas = new Object[DEFAULT][DEFAULT];
         this.message = " Default Matrix";
     }
+    */
 
     public Matrix(int m, int n) {
         this.datas = new Object[m][n];
@@ -79,7 +81,6 @@ public class Matrix<T extends Number> {
                 BigDecimal bigdec1 = new BigDecimal(elem1.toString());
                 BigDecimal bigdec2 = new BigDecimal(elem2.toString());
                 BigDecimal bigdec3 = bigdec1.subtract(bigdec2);
-                //        System.out.println("BigDec3 : " + bigdec3);
                 sum = (T)bigdec3;
 
                 return sum;
@@ -88,11 +89,11 @@ public class Matrix<T extends Number> {
     }
 
     private Matrix<T> operate(Matrix<T> m, IOperate<T> ope) throws Exception {
-        if(this.getRowCount() != m.getRowCount() || this.getColumnCount() == m.getColumnCount()) {
+        if(this.getRowCount() != m.getRowCount() || this.getColumnCount() !=  m.getColumnCount()) {
             throw new Exception("The illegal Matrix multiply");
         }
 
-        Matrix<T> res = new Matrix<>();
+        Matrix<T> res = new Matrix<>(this.getRowCount(), this.getColumnCount());
         for (int row = 0; row < this.getRowCount(); row++) {
             for (int col = 0; col < this.getColumnCount(); col++) {
                 res.add(row, col, ope.plus(this.get(row, col), m.get(row, col)));
@@ -107,16 +108,7 @@ public class Matrix<T extends Number> {
      * Matrix Common Multiply Algorithm
      * */
     public Matrix<T> multiply(Matrix<T> m) throws Exception {
-        return multiply(m,new IOperate<T>() {
-            public T operate(T elem1, T elem2) {
-                BigDecimal big1 = new BigDecimal(elem1.toString());
-                BigDecimal big2 = new BigDecimal(elem2.toString());
-                BigDecimal big3 = big1.multiply(big2);
-                //System.out.println("Big : " + big3);
-                return (T)big3;
-            }
-        });
-                
+        return multiply(m,new IOperate<T>() {});
     }
 
     @Override
@@ -139,13 +131,13 @@ public class Matrix<T extends Number> {
 
     }
 
-    public Matrix getSub(int srow,int erow, int scol, int ecol) {
-        Matrix m = new Matrix(erow - srow + 1, ecol - scol + 1);
+    public Matrix getSub(int srow,int rlen, int scol, int clen) {
+        Matrix m = new Matrix(rlen, clen);
         int r = 0;
 
-        for (int row = srow; row < erow + 1; row++) {
+        for (int row = srow; row < srow + rlen; row++) {
             int c = 0;
-            for (int col = scol; col < erow + 1; col++) {
+            for (int col = scol; col < scol + clen; col++) {
                 m.add(r, c++, this.get(row, col));
             }
             r++;
@@ -198,7 +190,7 @@ public class Matrix<T extends Number> {
         for (int row = 0; row < this.getRowCount(); row++) {
             sb.append("[ ");
             for (int col = 0; col < this.getColumnCount(); col++) {
-                sb.append(this.datas[row][col].toString());
+                sb.append(this.datas[row][col] == null ? "null" : this.datas[row][col].toString());
                 sb.append(",");
             }
             sb.append(" ] \n");

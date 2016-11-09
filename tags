@@ -1,0 +1,770 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+4NT_args	gradlew.bat	/^:4NT_args$/;"	l
+APP_BASE_NAME	gradlew.bat	/^set APP_BASE_NAME=%~n0$/;"	v
+APP_HOME	gradlew.bat	/^set APP_HOME=%DIRNAME%$/;"	v
+ArrChange	src/main/java/arrays/ArrChange.java	/^public class ArrChange {$/;"	c
+ArrayProblem	src/main/java/arrays/ArrayProblem.java	/^	public ArrayProblem(int[] datas) {$/;"	m	class:ArrayProblem
+ArrayProblem	src/main/java/arrays/ArrayProblem.java	/^public class ArrayProblem extends Problem {$/;"	c
+ArrayToTree	src/main/java/tree/ArrayToTree.java	/^public class ArrayToTree {$/;"	c
+Baidu_Decode	src/main/java/arrays/Baidu_Decode.java	/^public class Baidu_Decode {$/;"	c
+BinTreeIsBalance	src/main/java/tree/BinTreeIsBalance.java	/^public class BinTreeIsBalance {$/;"	c
+BinaryInsertSort	src/main/java/sort/BinaryInsertSort.java	/^public class BinaryInsertSort implements IInsertSort {$/;"	c
+BinaryTree	src/main/java/model/BinaryTree.java	/^	public BinaryTree() {$/;"	m	class:BinaryTree
+BinaryTree	src/main/java/model/BinaryTree.java	/^public class BinaryTree {$/;"	c
+BubbleSort	src/main/java/sort/BubbleSort.java	/^public class BubbleSort implements IExchangeSort {$/;"	c
+BucketSort	src/main/java/sort/BucketSort.java	/^public class BucketSort implements IDistributionSort {$/;"	c
+CLASSPATH	gradlew.bat	/^set CLASSPATH=%APP_HOME%\\gradle\\wrapper\\gradle-wrapper.jar$/;"	v
+CMD_LINE_ARGS	gradlew.bat	/^set CMD_LINE_ARGS=$/;"	v
+CMD_LINE_ARGS	gradlew.bat	/^set CMD_LINE_ARGS=%*$/;"	v
+CMD_LINE_ARGS	gradlew.bat	/^set CMD_LINE_ARGS=%\$$/;"	v
+Cat	src/main/java/pet/Cat.java	/^	public Cat() {$/;"	m	class:Cat
+Cat	src/main/java/pet/Cat.java	/^public class Cat extends Pet {$/;"	c
+CocktailSort	src/main/java/sort/CocktailSort.java	/^public class CocktailSort implements IExchangeSort {$/;"	c
+CompBinTree	src/main/java/tree/CompBinTree.java	/^public class CompBinTree {$/;"	c
+CountOneAppearTimes	src/main/java/other/CountOneAppearTimes.java	/^public class CountOneAppearTimes {$/;"	c
+Create	src/main/java/linklist/LinkList.java	/^	public static LinkNode Create(int[] arr){$/;"	m	class:LinkList
+CreateDoubleLinkList	src/main/java/linklist/LinkList.java	/^	public static LinkDoubleNode CreateDoubleLinkList(int[] arr){$/;"	m	class:LinkList
+CustomRandom	src/main/java/random/CustomRandom.java	/^public class CustomRandom {$/;"	c
+DEFAULT	src/main/java/matrix/Matrix.java	/^    public final int DEFAULT = 10;$/;"	f	class:Matrix
+DEFAULT_JVM_OPTS	gradlew.bat	/^set DEFAULT_JVM_OPTS=$/;"	v
+DIRNAME	gradlew.bat	/^if "%DIRNAME%" == "" set DIRNAME=.$/;"	v
+DIRNAME	gradlew.bat	/^set DIRNAME=%~dp0$/;"	v
+Dog	src/main/java/pet/Dog.java	/^	public Dog() {$/;"	m	class:Dog
+Dog	src/main/java/pet/Dog.java	/^public class Dog extends Pet {$/;"	c
+DogCatQueue	src/main/java/pet/DogCatQueue.java	/^	public DogCatQueue(){$/;"	m	class:DogCatQueue
+DogCatQueue	src/main/java/pet/DogCatQueue.java	/^public class DogCatQueue {$/;"	c
+FIGURES	src/main/java/random/CustomRandom.java	/^	static final int FIGURES = 10000;$/;"	f	class:CustomRandom
+FactrialLastOnePos	src/main/java/other/FactrialLastOnePos.java	/^public class FactrialLastOnePos {$/;"	c
+FactrialLastZeroNum	src/main/java/other/FactrialLastZeroNum.java	/^public class FactrialLastZeroNum {$/;"	c
+Gcd	src/main/java/other/Gcd.java	/^public class Gcd {$/;"	c
+Hanoi	src/main/java/stackAndQueue/Hanoi.java	/^public class Hanoi {$/;"	c
+HeapSort	src/main/java/sort/HeapSort.java	/^public class HeapSort implements ISelectSort {$/;"	c
+IDistributionSort	src/main/java/sort/IDistributionSort.java	/^public interface IDistributionSort extends ISort {$/;"	i
+IExchangeSort	src/main/java/sort/IExchangeSort.java	/^public interface IExchangeSort extends ISort {$/;"	i
+IInsertSort	src/main/java/sort/IInsertSort.java	/^public interface IInsertSort extends ISort{$/;"	i
+ILineObservable	src/main/java/actual/combat/lineup/ILineObservable.java	/^public interface ILineObservable {$/;"	i
+ILineObserver	src/main/java/actual/combat/lineup/ILineObserver.java	/^public interface ILineObserver {$/;"	i
+ILineObserver	src/main/java/actual/combat/lineup2/ILineObserver.java	/^public interface ILineObserver {$/;"	i
+ILinePerson	src/main/java/actual/combat/lineup2/ILinePerson.java	/^public interface ILinePerson {$/;"	i
+IMergerSort	src/main/java/sort/IMergerSort.java	/^public interface IMergerSort extends ISort {$/;"	i
+IOperate	src/main/java/base/IOperate.java	/^public interface IOperate<T extends Number> {$/;"	i
+IProblem	src/main/java/base/IProblem.java	/^public interface IProblem {$/;"	i
+ISelectSort	src/main/java/sort/ISelectSort.java	/^public interface ISelectSort extends ISort {$/;"	i
+ISort	src/main/java/sort/ISort.java	/^public interface ISort {	$/;"	i
+IntSubMaxLength	src/main/java/arrays/IntSubMaxLength.java	/^	public IntSubMaxLength(int[] datas) {$/;"	m	class:IntSubMaxLength
+IntSubMaxLength	src/main/java/arrays/IntSubMaxLength.java	/^	public IntSubMaxLength(int[] datas, int k) {$/;"	m	class:IntSubMaxLength
+IntSubMaxLength	src/main/java/arrays/IntSubMaxLength.java	/^public class IntSubMaxLength extends ArrayProblem {$/;"	c
+JAVA_EXE	gradlew.bat	/^set JAVA_EXE=%JAVA_HOME%\/bin\/java.exe$/;"	v
+JAVA_EXE	gradlew.bat	/^set JAVA_EXE=java.exe$/;"	v
+JAVA_HOME	gradlew.bat	/^set JAVA_HOME=%JAVA_HOME:"=%$/;"	v
+JosephusKill	src/main/java/linklist/JosephusKill.java	/^public class JosephusKill {$/;"	c
+JudgeIntIsPalindrome	src/main/java/other/JudgeIntIsPalindrome.java	/^public class JudgeIntIsPalindrome {$/;"	c
+JumpGame	src/main/java/dp/JumpGame.java	/^public class JumpGame {$/;"	c
+LargestNum	src/main/java/arrays/LargestNum.java	/^public class LargestNum {$/;"	c
+LinePerson	src/main/java/actual/combat/lineup2/LinePerson.java	/^	public LinePerson(String name, ILineObserver observer) {$/;"	m	class:LinePerson
+LinePerson	src/main/java/actual/combat/lineup2/LinePerson.java	/^public class LinePerson implements ILinePerson {$/;"	c
+LineUp	src/main/java/actual/combat/lineup/LineUp.java	/^	public LineUp() {$/;"	m	class:LineUp
+LineUp	src/main/java/actual/combat/lineup/LineUp.java	/^public class LineUp implements ILineObserver {$/;"	c
+LineUp	src/main/java/actual/combat/lineup2/LineUp.java	/^	public LineUp() {$/;"	m	class:LineUp
+LineUp	src/main/java/actual/combat/lineup2/LineUp.java	/^public class LineUp implements ILineObserver {$/;"	c
+LinkDoubleNode	src/main/java/model/LinkDoubleNode.java	/^	public LinkDoubleNode(Integer data) {$/;"	m	class:LinkDoubleNode
+LinkDoubleNode	src/main/java/model/LinkDoubleNode.java	/^public class LinkDoubleNode extends LinkNode {$/;"	c
+LinkList	src/main/java/linklist/LinkList.java	/^public class LinkList {$/;"	c
+LinkNode	src/main/java/model/LinkNode.java	/^	public LinkNode(Integer data){$/;"	m	class:LinkNode
+LinkNode	src/main/java/model/LinkNode.java	/^public class LinkNode {$/;"	c
+LinkUntil	src/main/java/linklist/LinkUntil.java	/^public class LinkUntil {$/;"	c
+MainTest	src/main/java/actual/combat/lineup/MainTest.java	/^public class MainTest {$/;"	c
+MainTest	src/main/java/actual/combat/lineup2/MainTest.java	/^public class MainTest {$/;"	c
+MainTest	src/main/java/arrays/MainTest.java	/^public class MainTest {$/;"	c
+MainTest	src/main/java/friendly/MainTest.java	/^public class MainTest {$/;"	c
+MainTest	src/main/java/linklist/MainTest.java	/^public class MainTest {$/;"	c
+MainTest	src/main/java/matrix/MainTest.java	/^public class MainTest {$/;"	c
+MainTest	src/main/java/sort/MainTest.java	/^public class MainTest {$/;"	c
+Matrix	src/main/java/matrix/Matrix.java	/^    public Matrix() {$/;"	m	class:Matrix
+Matrix	src/main/java/matrix/Matrix.java	/^    public Matrix(T[][] datas) {$/;"	m	class:Matrix
+Matrix	src/main/java/matrix/Matrix.java	/^    public Matrix(int m, int n) {$/;"	m	class:Matrix
+Matrix	src/main/java/matrix/Matrix.java	/^    public Matrix(int n) {$/;"	m	class:Matrix
+Matrix	src/main/java/matrix/Matrix.java	/^public class Matrix<T extends Number> {$/;"	c
+MatrixCirclePrint	src/main/java/matrix/MatrixCirclePrint.java	/^	public MatrixCirclePrint(int[][] datas) {$/;"	m	class:MatrixCirclePrint
+MatrixCirclePrint	src/main/java/matrix/MatrixCirclePrint.java	/^public class MatrixCirclePrint extends MatrixProblem {$/;"	c
+MatrixFindNumber	src/main/java/matrix/MatrixFindNumber.java	/^	public MatrixFindNumber(int[][] datas, int k) {$/;"	m	class:MatrixFindNumber
+MatrixFindNumber	src/main/java/matrix/MatrixFindNumber.java	/^public class MatrixFindNumber extends MatrixProblem {$/;"	c
+MatrixMinPathSum	src/main/java/matrix/MatrixMinPathSum.java	/^	public MatrixMinPathSum(int[][] datas) {$/;"	m	class:MatrixMinPathSum
+MatrixMinPathSum	src/main/java/matrix/MatrixMinPathSum.java	/^public class MatrixMinPathSum extends MatrixProblem {$/;"	c
+MatrixProblem	src/main/java/matrix/MatrixProblem.java	/^	public MatrixProblem(int[][] datas) {$/;"	m	class:MatrixProblem
+MatrixProblem	src/main/java/matrix/MatrixProblem.java	/^public class MatrixProblem extends Problem {$/;"	c
+MatrixRotate	src/main/java/matrix/MatrixRotate.java	/^	public MatrixRotate(int[][] datas) {$/;"	m	class:MatrixRotate
+MatrixRotate	src/main/java/matrix/MatrixRotate.java	/^public class MatrixRotate extends MatrixProblem {$/;"	c
+MatrixStrassen	src/main/java/matrix/MatrixStrassen.java	/^public class MatrixStrassen {$/;"	c
+MatrixTest	src/test/java/matrix/MatrixTest.java	/^public class MatrixTest {$/;"	c
+MatrixZigZagPrint	src/main/java/matrix/MatrixZigZagPrint.java	/^	public MatrixZigZagPrint(int[][] datas) {$/;"	m	class:MatrixZigZagPrint
+MatrixZigZagPrint	src/main/java/matrix/MatrixZigZagPrint.java	/^public class MatrixZigZagPrint extends MatrixProblem {$/;"	c
+MaxAndMin	src/main/java/tree/MaxAndMin.java	/^public class MaxAndMin {$/;"	c
+MaxAscSubsequence	src/main/java/arrays/MaxAscSubsequence.java	/^	public MaxAscSubsequence(int[] datas) {$/;"	m	class:MaxAscSubsequence
+MaxAscSubsequence	src/main/java/arrays/MaxAscSubsequence.java	/^public class MaxAscSubsequence extends ArrayProblem {$/;"	c
+MaxBetweenMinArrays	src/main/java/arrays/MaxBetweenMinArrays.java	/^public class MaxBetweenMinArrays {$/;"	c
+MaxComSubsequence	src/main/java/arrays/MaxComSubsequence.java	/^	public MaxComSubsequence(int[] datas) {$/;"	m	class:MaxComSubsequence
+MaxComSubsequence	src/main/java/arrays/MaxComSubsequence.java	/^	public MaxComSubsequence(int[] datas,String str1, String str2) {$/;"	m	class:MaxComSubsequence
+MaxComSubsequence	src/main/java/arrays/MaxComSubsequence.java	/^public class MaxComSubsequence extends ArrayProblem {$/;"	c
+MaxLenBetNode	src/main/java/tree/MaxLenBetNode.java	/^public class MaxLenBetNode {$/;"	c
+MaxRecSize	src/main/java/stackAndQueue/MaxRecSize.java	/^public class MaxRecSize {$/;"	c
+MaxSumSub	src/main/java/arrays/MaxSumSub.java	/^public class MaxSumSub {$/;"	c
+MaxSumSubTest	src/test/java/arrays/MaxSumSubTest.java	/^    public MaxSumSubTest(ArrayList<Integer> datas, int sum) {$/;"	m	class:MaxSumSubTest
+MaxSumSubTest	src/test/java/arrays/MaxSumSubTest.java	/^public class MaxSumSubTest {$/;"	c
+MaxTree	src/main/java/stackAndQueue/MaxTree.java	/^public class MaxTree {$/;"	c
+MaxWindow	src/main/java/stackAndQueue/MaxWindow.java	/^public class MaxWindow {$/;"	c
+MergeSort	src/main/java/sort/MergeSort.java	/^public class MergeSort implements IMergerSort {$/;"	c
+MessageBox	src/main/java/other/MessageBox.java	/^	public MessageBox() {$/;"	m	class:MessageBox
+MessageBox	src/main/java/other/MessageBox.java	/^public class MessageBox {$/;"	c
+MinKNumByHeap	src/main/java/arrays/MinKNumByHeap.java	/^	public MinKNumByHeap(int[] datas) {$/;"	m	class:MinKNumByHeap
+MinKNumByHeap	src/main/java/arrays/MinKNumByHeap.java	/^	public MinKNumByHeap(int[] datas, int k) {$/;"	m	class:MinKNumByHeap
+MinKNumByHeap	src/main/java/arrays/MinKNumByHeap.java	/^public class MinKNumByHeap extends ArrayProblem {$/;"	c
+MinLengthNeedSort	src/main/java/arrays/MinLengthNeedSort.java	/^	public MinLengthNeedSort(int[] datas) {$/;"	m	class:MinLengthNeedSort
+MinLengthNeedSort	src/main/java/arrays/MinLengthNeedSort.java	/^public class MinLengthNeedSort extends ArrayProblem {$/;"	c
+MinPathValue	src/main/java/matrix/MinPathValue.java	/^public class MinPathValue {$/;"	c
+MinStack	src/main/java/stackAndQueue/MinStack.java	/^	public MinStack(){$/;"	m	class:MinStack
+MinStack	src/main/java/stackAndQueue/MinStack.java	/^public class MinStack {$/;"	c
+MinStack2	src/main/java/stackAndQueue/MinStack2.java	/^	public MinStack2(){$/;"	m	class:MinStack2
+MinStack2	src/main/java/stackAndQueue/MinStack2.java	/^public class MinStack2 {$/;"	c
+NQueen	src/main/java/dp/NQueen.java	/^public class NQueen {$/;"	c
+OrigamiProblem	src/main/java/other/OrigamiProblem.java	/^public class OrigamiProblem {$/;"	c
+Palindrome	src/main/java/arrays/Palindrome.java	/^	public Palindrome(int[] datas) {$/;"	m	class:Palindrome
+Palindrome	src/main/java/arrays/Palindrome.java	/^	public Palindrome(int[] datas, String str) {$/;"	m	class:Palindrome
+Palindrome	src/main/java/arrays/Palindrome.java	/^public class Palindrome extends ArrayProblem {$/;"	c
+Person	src/main/java/actual/combat/lineup/Person.java	/^	public Person(String name) {$/;"	m	class:Person
+Person	src/main/java/actual/combat/lineup/Person.java	/^public class Person implements ILineObservable {$/;"	c
+Person	src/main/java/friendly/Person.java	/^public class Person {$/;"	c
+Pet	src/main/java/pet/Pet.java	/^	public Pet(String type){$/;"	m	class:Pet
+Pet	src/main/java/pet/Pet.java	/^public class Pet {$/;"	c
+PetEnterQueue	src/main/java/pet/PetEnterQueue.java	/^	public PetEnterQueue(Pet pet, long count) {$/;"	m	class:PetEnterQueue
+PetEnterQueue	src/main/java/pet/PetEnterQueue.java	/^public class PetEnterQueue {$/;"	c
+PosIntSubMaxLength	src/main/java/arrays/PosIntSubMaxLength.java	/^	public PosIntSubMaxLength(int[] datas) {$/;"	m	class:PosIntSubMaxLength
+PosIntSubMaxLength	src/main/java/arrays/PosIntSubMaxLength.java	/^	public PosIntSubMaxLength(int[] datas, int k) {$/;"	m	class:PosIntSubMaxLength
+PosIntSubMaxLength	src/main/java/arrays/PosIntSubMaxLength.java	/^public class PosIntSubMaxLength extends ArrayProblem {$/;"	c
+PowerSet	src/main/java/arrays/PowerSet.java	/^public class PowerSet {$/;"	c
+PrintRandomArrayElem	src/main/java/arrays/PrintRandomArrayElem.java	/^	public PrintRandomArrayElem(int[] datas) {$/;"	m	class:PrintRandomArrayElem
+PrintRandomArrayElem	src/main/java/arrays/PrintRandomArrayElem.java	/^	public PrintRandomArrayElem(int[] datas, int m) {$/;"	m	class:PrintRandomArrayElem
+PrintRandomArrayElem	src/main/java/arrays/PrintRandomArrayElem.java	/^public class PrintRandomArrayElem extends ArrayProblem {$/;"	c
+Problem	src/main/java/base/Problem.java	/^public class Problem implements IProblem {$/;"	c
+QUEUEMAX	src/main/java/sort/RadixSort.java	/^	private final int QUEUEMAX = 10;$/;"	f	class:RadixSort	file:
+QuickSort	src/main/java/sort/QuickSort.java	/^public class QuickSort implements IExchangeSort,IDistributionSort {$/;"	c
+RadixSort	src/main/java/sort/RadixSort.java	/^public class RadixSort implements IDistributionSort {$/;"	c
+RandXPowerK	src/main/java/other/RandXPowerK.java	/^public class RandXPowerK {$/;"	c
+RandomExtend	src/main/java/random/RandomExtend.java	/^public class RandomExtend {$/;"	c
+RandomNM	src/main/java/random/RandomNM.java	/^public class RandomNM {$/;"	c
+RandomPool	src/main/java/other/RandomPool.java	/^	public RandomPool() {$/;"	m	class:RandomPool
+RandomPool	src/main/java/other/RandomPool.java	/^public class RandomPool<K> {$/;"	c
+ReservoirAlgorithm	src/main/java/other/ReservoirAlgorithm.java	/^public class ReservoirAlgorithm {$/;"	c
+Search	src/main/java/model/LinkDoubleNode.java	/^	public void Search(){$/;"	m	class:LinkDoubleNode
+Search	src/main/java/model/LinkNode.java	/^	public void Search(){$/;"	m	class:LinkNode
+SearchTree	src/main/java/tree/SearchTree.java	/^public class SearchTree {$/;"	c
+SerialTree	src/main/java/tree/SerialTree.java	/^public class SerialTree {$/;"	c
+ShellSort	src/main/java/sort/ShellSort.java	/^public class ShellSort implements IInsertSort {$/;"	c
+SingleInsertSort	src/main/java/sort/SingleInsertSort.java	/^public class SingleInsertSort implements IInsertSort {$/;"	c
+SingleSelectSort	src/main/java/sort/SingleSelectSort.java	/^public class SingleSelectSort implements ISelectSort {$/;"	c
+SortContext	src/main/java/sort/SortContext.java	/^	public SortContext(ISort sort) {$/;"	m	class:SortContext
+SortContext	src/main/java/sort/SortContext.java	/^public class SortContext {$/;"	c
+StackUntil	src/main/java/stackAndQueue/StackUntil.java	/^public class StackUntil {$/;"	c
+Student	src/main/java/friendly/Student.java	/^public class Student extends Person {$/;"	c
+Teacher	src/main/java/linklist/Teacher.java	/^public class Teacher extends Person {$/;"	c
+Tester	src/main/java/tree/Tester.java	/^public interface Tester {$/;"	i
+TreeArray	src/main/java/tree/TreeArray.java	/^public class TreeArray {$/;"	c
+TreeNode	src/main/java/model/TreeNode.java	/^	public TreeNode(int data){$/;"	m	class:TreeNode
+TreeNode	src/main/java/model/TreeNode.java	/^public class TreeNode {$/;"	c
+TreeSearchTest	src/main/java/tree/TreeSearchTest.java	/^public class TreeSearchTest {$/;"	c
+TwoStackQueue	src/main/java/stackAndQueue/TwoStackQueue.java	/^	public TwoStackQueue(){$/;"	m	class:TwoStackQueue
+TwoStackQueue	src/main/java/stackAndQueue/TwoStackQueue.java	/^public class TwoStackQueue {$/;"	c
+UnformedSum	src/main/java/other/UnformedSum.java	/^public class UnformedSum {$/;"	c
+_SKIP	gradlew.bat	/^set _SKIP=2$/;"	v
+actual.combat.lineup	src/main/java/actual/combat/lineup/ILineObservable.java	/^package actual.combat.lineup;$/;"	p
+actual.combat.lineup	src/main/java/actual/combat/lineup/ILineObserver.java	/^package actual.combat.lineup;$/;"	p
+actual.combat.lineup	src/main/java/actual/combat/lineup/LineUp.java	/^package actual.combat.lineup;$/;"	p
+actual.combat.lineup	src/main/java/actual/combat/lineup/MainTest.java	/^package actual.combat.lineup;$/;"	p
+actual.combat.lineup	src/main/java/actual/combat/lineup/Person.java	/^package actual.combat.lineup;$/;"	p
+actual.combat.lineup2	src/main/java/actual/combat/lineup2/ILineObserver.java	/^package actual.combat.lineup2;$/;"	p
+actual.combat.lineup2	src/main/java/actual/combat/lineup2/ILinePerson.java	/^package actual.combat.lineup2;$/;"	p
+actual.combat.lineup2	src/main/java/actual/combat/lineup2/LinePerson.java	/^package actual.combat.lineup2;$/;"	p
+actual.combat.lineup2	src/main/java/actual/combat/lineup2/LineUp.java	/^package actual.combat.lineup2;$/;"	p
+actual.combat.lineup2	src/main/java/actual/combat/lineup2/MainTest.java	/^package actual.combat.lineup2;$/;"	p
+add	src/main/java/matrix/Matrix.java	/^    public void add(int row, int col, T elem) {$/;"	m	class:Matrix
+add	src/main/java/pet/DogCatQueue.java	/^	public void add(Pet pet){$/;"	m	class:DogCatQueue
+add	src/main/java/stackAndQueue/TwoStackQueue.java	/^	public void add(int newNum){$/;"	m	class:TwoStackQueue
+addAll	src/main/java/matrix/Matrix.java	/^    public void addAll(T ...elems) {$/;"	m	class:Matrix
+addClass	build/reports/tests/js/report.js	/^    function addClass(element, classValue) {$/;"	f
+age	src/main/java/friendly/Person.java	/^	  int age;$/;"	f	class:Person
+arrayDatas	src/test/java/arrays/MaxSumSubTest.java	/^    public static Collection arrayDatas() {$/;"	m	class:MaxSumSubTest
+arrays	src/main/java/arrays/ArrChange.java	/^package arrays;$/;"	p
+arrays	src/main/java/arrays/ArrayProblem.java	/^package arrays;$/;"	p
+arrays	src/main/java/arrays/Baidu_Decode.java	/^package arrays;$/;"	p
+arrays	src/main/java/arrays/IntSubMaxLength.java	/^package arrays;$/;"	p
+arrays	src/main/java/arrays/LargestNum.java	/^package arrays;$/;"	p
+arrays	src/main/java/arrays/MainTest.java	/^package arrays;$/;"	p
+arrays	src/main/java/arrays/MaxAscSubsequence.java	/^package arrays;$/;"	p
+arrays	src/main/java/arrays/MaxBetweenMinArrays.java	/^package arrays;$/;"	p
+arrays	src/main/java/arrays/MaxComSubsequence.java	/^package arrays;$/;"	p
+arrays	src/main/java/arrays/MaxSumSub.java	/^package arrays;$/;"	p
+arrays	src/main/java/arrays/MinKNumByHeap.java	/^package arrays;$/;"	p
+arrays	src/main/java/arrays/MinLengthNeedSort.java	/^package arrays;$/;"	p
+arrays	src/main/java/arrays/Palindrome.java	/^package arrays;$/;"	p
+arrays	src/main/java/arrays/PosIntSubMaxLength.java	/^package arrays;$/;"	p
+arrays	src/main/java/arrays/PowerSet.java	/^package arrays;$/;"	p
+arrays	src/main/java/arrays/PrintRandomArrayElem.java	/^package arrays;$/;"	p
+arrays.test	src/test/java/arrays/MaxSumSubTest.java	/^package arrays.test;$/;"	p
+base	src/main/java/base/IOperate.java	/^package base;$/;"	p
+base	src/main/java/base/IProblem.java	/^package base;$/;"	p
+base	src/main/java/base/Problem.java	/^package base;$/;"	p
+binarySearch	src/main/java/sort/BinaryInsertSort.java	/^	private int binarySearch(int[] datas, int i) {$/;"	m	class:BinaryInsertSort	file:
+buildMaxHeap	src/main/java/sort/HeapSort.java	/^	private void buildMaxHeap(int[] datas) {$/;"	m	class:HeapSort	file:
+buildMaxHeap	src/main/java/sort/HeapSort.java	/^	private void buildMaxHeap(int[] datas, int lastIndex) {$/;"	m	class:HeapSort	file:
+catQ	src/main/java/pet/DogCatQueue.java	/^	private Queue<PetEnterQueue> catQ;$/;"	f	class:DogCatQueue	file:
+change	src/main/java/arrays/ArrChange.java	/^	public void change(int[] arr) {$/;"	m	class:ArrChange
+change	src/main/java/arrays/ArrChange.java	/^	public void change(int[] arr, int start, int end) {$/;"	m	class:ArrChange
+change2	src/main/java/arrays/ArrChange.java	/^	public void change2(int[] arr) {$/;"	m	class:ArrChange
+change3	src/main/java/arrays/ArrChange.java	/^	public void change3(int[] arr) {$/;"	m	class:ArrChange
+changeElementClass	build/reports/tests/js/report.js	/^    function changeElementClass(element, classValue) {$/;"	f
+count	src/main/java/pet/DogCatQueue.java	/^	private long count;$/;"	f	class:DogCatQueue	file:
+count	src/main/java/pet/PetEnterQueue.java	/^	private long count;$/;"	f	class:PetEnterQueue	file:
+curLeftIndex	src/main/java/actual/combat/lineup/LineUp.java	/^	private int curLeftIndex = -1;$/;"	f	class:LineUp	file:
+datalist	src/test/java/arrays/MaxSumSubTest.java	/^    private ArrayList<Integer> datalist;$/;"	f	class:MaxSumSubTest	file:
+datas	src/main/java/arrays/ArrayProblem.java	/^	protected int[] datas;$/;"	f	class:ArrayProblem
+datas	src/main/java/matrix/Matrix.java	/^    private Object[][] datas;$/;"	f	class:Matrix	file:
+datas	src/main/java/matrix/MatrixProblem.java	/^	protected int[][] datas;$/;"	f	class:MatrixProblem
+decode	src/main/java/arrays/Baidu_Decode.java	/^	public String decode(String mess){$/;"	m	class:Baidu_Decode
+delete	src/main/java/other/RandomPool.java	/^	public boolean delete(K elem) {$/;"	m	class:RandomPool
+deselectAll	build/reports/tests/js/report.js	/^    function deselectAll() {$/;"	f
+die	gradlew	/^die ( ) {$/;"	f
+dogQ	src/main/java/pet/DogCatQueue.java	/^	private Queue<PetEnterQueue> dogQ;$/;"	f	class:DogCatQueue	file:
+dp	src/main/java/dp/JumpGame.java	/^package dp;$/;"	p
+dp	src/main/java/dp/NQueen.java	/^package dp;$/;"	p
+end	gradlew.bat	/^:end$/;"	l
+execute	gradlew.bat	/^:execute$/;"	l
+fail	gradlew.bat	/^:fail$/;"	l
+fenzhi	src/main/java/arrays/MaxSumSub.java	/^	public static int fenzhi(ArrayList<Integer> list, int left, int right) {$/;"	m	class:MaxSumSub
+findChildElements	build/reports/tests/js/report.js	/^    function findChildElements(container, name, targetClass) {$/;"	f
+findCodeBlocks	build/reports/tests/js/report.js	/^    function findCodeBlocks() {$/;"	f
+findFirstMax	src/main/java/stackAndQueue/MaxTree.java	/^	private void findFirstMax(TreeNode[] nodes, Stack<TreeNode> stack, HashMap<TreeNode, TreeNode> map) {$/;"	m	class:MaxTree	file:
+findHeaders	build/reports/tests/js/report.js	/^    function findHeaders(container) {$/;"	f
+findJavaFromJavaHome	gradlew.bat	/^:findJavaFromJavaHome$/;"	l
+findTabs	build/reports/tests/js/report.js	/^    function findTabs(container) {$/;"	f
+findTitles	build/reports/tests/js/report.js	/^    function findTitles(tabs) {$/;"	f
+findTree	src/main/java/stackAndQueue/MaxTree.java	/^	public void findTree(TreeNode node){		$/;"	m	class:MaxTree
+forAllCodeBlocks	build/reports/tests/js/report.js	/^    function forAllCodeBlocks(operation) {$/;"	f
+friendly	src/main/java/friendly/MainTest.java	/^package friendly;$/;"	p
+friendly	src/main/java/friendly/Person.java	/^package friendly;$/;"	p
+friendly	src/main/java/friendly/Student.java	/^package friendly;$/;"	p
+gcd	src/main/java/other/Gcd.java	/^	public static int gcd(int m, int n) {$/;"	m	class:Gcd
+generate	src/main/java/tree/BinTreeIsBalance.java	/^	private TreeNode generate(List<Integer> sortArr, int start, int end) {$/;"	m	class:BinTreeIsBalance	file:
+generateList	src/main/java/arrays/MaxAscSubsequence.java	/^	private int[] generateList(int[] arr, int[] dp) {$/;"	m	class:MaxAscSubsequence	file:
+generateTree	src/main/java/tree/BinTreeIsBalance.java	/^	public TreeNode generateTree(List<Integer> sortArr) {$/;"	m	class:BinTreeIsBalance
+get	src/main/java/matrix/Matrix.java	/^    public T get(int row, int col) {$/;"	m	class:Matrix
+getAge	src/main/java/friendly/Person.java	/^	  int getAge(){$/;"	m	class:Person
+getAge	src/main/java/friendly/Student.java	/^	int getAge() {$/;"	m	class:Student
+getAge	src/main/java/linklist/Teacher.java	/^	protected int getAge() {$/;"	m	class:Teacher
+getAndRemoveLastElement	src/main/java/stackAndQueue/StackUntil.java	/^	public static int getAndRemoveLastElement(Stack<Integer> stack) {$/;"	m	class:StackUntil
+getBigDit	src/main/java/arrays/LargestNum.java	/^	public int getBigDit(int num) {$/;"	m	class:LargestNum
+getCheckBox	build/reports/tests/js/report.js	/^    function getCheckBox() {$/;"	f
+getClassAttribute	build/reports/tests/js/report.js	/^    function getClassAttribute(element) {$/;"	f
+getColumnCount	src/main/java/matrix/Matrix.java	/^    public int getColumnCount() {$/;"	m	class:Matrix
+getCount	src/main/java/pet/PetEnterQueue.java	/^	public long getCount(){$/;"	m	class:PetEnterQueue
+getDP	src/main/java/arrays/Palindrome.java	/^	private int[][] getDP(char[] str) {$/;"	m	class:Palindrome	file:
+getDataList	src/test/java/arrays/MaxSumSubTest.java	/^    private static ArrayList<Integer> getDataList(Integer... datas) {$/;"	m	class:MaxSumSubTest	file:
+getDesc	src/main/java/arrays/ArrayProblem.java	/^	public String getDesc() {$/;"	m	class:ArrayProblem
+getDesc	src/main/java/arrays/IntSubMaxLength.java	/^	public String getDesc() {$/;"	m	class:IntSubMaxLength
+getDesc	src/main/java/arrays/MaxAscSubsequence.java	/^	public String getDesc() {$/;"	m	class:MaxAscSubsequence
+getDesc	src/main/java/arrays/MaxComSubsequence.java	/^	public String getDesc() {$/;"	m	class:MaxComSubsequence
+getDesc	src/main/java/arrays/MinKNumByHeap.java	/^	public String getDesc() {$/;"	m	class:MinKNumByHeap
+getDesc	src/main/java/arrays/MinLengthNeedSort.java	/^	public String getDesc() {$/;"	m	class:MinLengthNeedSort
+getDesc	src/main/java/arrays/Palindrome.java	/^	public String getDesc() {$/;"	m	class:Palindrome
+getDesc	src/main/java/arrays/PosIntSubMaxLength.java	/^	public String getDesc() {$/;"	m	class:PosIntSubMaxLength
+getDesc	src/main/java/arrays/PrintRandomArrayElem.java	/^	public String getDesc() {$/;"	m	class:PrintRandomArrayElem
+getDesc	src/main/java/base/IProblem.java	/^	String getDesc();$/;"	m	interface:IProblem
+getDesc	src/main/java/base/Problem.java	/^	public String getDesc() {$/;"	m	class:Problem
+getDesc	src/main/java/matrix/MatrixCirclePrint.java	/^	public String getDesc() {$/;"	m	class:MatrixCirclePrint
+getDesc	src/main/java/matrix/MatrixFindNumber.java	/^	public String getDesc() {$/;"	m	class:MatrixFindNumber
+getDesc	src/main/java/matrix/MatrixMinPathSum.java	/^	public String getDesc() {$/;"	m	class:MatrixMinPathSum
+getDesc	src/main/java/matrix/MatrixProblem.java	/^	public String getDesc() {$/;"	m	class:MatrixProblem
+getDesc	src/main/java/matrix/MatrixRotate.java	/^	public String getDesc() {$/;"	m	class:MatrixRotate
+getDesc	src/main/java/matrix/MatrixZigZagPrint.java	/^	public String getDesc() {$/;"	m	class:MatrixZigZagPrint
+getDp	src/main/java/arrays/MaxComSubsequence.java	/^	private int[][] getDp(char[] str1, char[] str2) {$/;"	m	class:MaxComSubsequence	file:
+getDp1	src/main/java/arrays/MaxAscSubsequence.java	/^	public int[] getDp1(int[] arr) {$/;"	m	class:MaxAscSubsequence
+getDp2	src/main/java/arrays/MaxAscSubsequence.java	/^	private int[] getDp2(int[] arr){$/;"	m	class:MaxAscSubsequence	file:
+getEnterPetType	src/main/java/pet/PetEnterQueue.java	/^	public String getEnterPetType(){$/;"	m	class:PetEnterQueue
+getHead	src/main/java/stackAndQueue/MaxTree.java	/^	private TreeNode getHead(TreeNode[] nodes, HashMap<TreeNode, TreeNode>lBigMap, HashMap<TreeNode, TreeNode> rBigMap){$/;"	m	class:MaxTree	file:
+getHeight	src/main/java/model/BinaryTree.java	/^	private int getHeight(TreeNode node) {$/;"	m	class:BinaryTree	file:
+getHeight	src/main/java/model/BinaryTree.java	/^	private int getHeight(TreeNode node, int level, int data) {$/;"	m	class:BinaryTree	file:
+getHeight	src/main/java/model/BinaryTree.java	/^	public int getHeight() {$/;"	m	class:BinaryTree
+getHeight	src/main/java/model/BinaryTree.java	/^	public int getHeight(int value) {$/;"	m	class:BinaryTree
+getHeight	src/main/java/tree/BinTreeIsBalance.java	/^	private int getHeight(TreeNode node, int level, boolean[] res) {$/;"	m	class:BinTreeIsBalance	file:
+getKNumRand	src/main/java/other/ReservoirAlgorithm.java	/^	public int[] getKNumRand(int k, int max) {$/;"	m	class:ReservoirAlgorithm
+getKinds	src/main/java/dp/NQueen.java	/^	public int getKinds(int n){$/;"	m	class:NQueen
+getKinds2	src/main/java/dp/NQueen.java	/^	public int getKinds2(int n){$/;"	m	class:NQueen
+getLabelForCheckBox	build/reports/tests/js/report.js	/^    function getLabelForCheckBox() {$/;"	f
+getLast	src/main/java/model/LinkDoubleNode.java	/^	public LinkDoubleNode getLast(){$/;"	m	class:LinkDoubleNode
+getLeft	src/main/java/model/TreeNode.java	/^	public TreeNode getLeft() {$/;"	m	class:TreeNode
+getLenOfNum	src/main/java/other/CountOneAppearTimes.java	/^	private int getLenOfNum(int num) {$/;"	m	class:CountOneAppearTimes	file:
+getMSysNum	src/main/java/random/RandomNM.java	/^	public int[] getMSysNum(int value, int m){$/;"	m	class:RandomNM
+getMax	src/main/java/arrays/LargestNum.java	/^	private int getMax(int[] nums) {$/;"	m	class:LargestNum	file:
+getMax	src/main/java/sort/RadixSort.java	/^	private int getMax(int[] datas) {$/;"	m	class:RadixSort	file:
+getMaxLength	src/main/java/arrays/IntSubMaxLength.java	/^	private int getMaxLength(int[] datas, int k) {$/;"	m	class:IntSubMaxLength	file:
+getMaxLength	src/main/java/arrays/PosIntSubMaxLength.java	/^	private int getMaxLength(int[] arr, int k){$/;"	m	class:PosIntSubMaxLength	file:
+getMaxLength	src/main/java/tree/MaxAndMin.java	/^	public static int getMaxLength(TreeNode head, int sum) {$/;"	m	class:MaxAndMin
+getMaxTree	src/main/java/stackAndQueue/MaxTree.java	/^	public TreeNode getMaxTree(int[] arr) {$/;"	m	class:MaxTree
+getMaxWindow	src/main/java/stackAndQueue/MaxWindow.java	/^	public static int[] getMaxWindow(int[] arr, int w){		$/;"	m	class:MaxWindow
+getMidMax	src/main/java/arrays/MaxSumSub.java	/^    static int getMidMax(ArrayList<Integer> list, int mid, int left, int right) {$/;"	m	class:MaxSumSub
+getMiddle	src/main/java/sort/QuickSort.java	/^	private int getMiddle(int[] datas, int low, int high){$/;"	m	class:QuickSort	file:
+getMin	src/main/java/stackAndQueue/MinStack.java	/^	public int getMin(){		$/;"	m	class:MinStack
+getMin	src/main/java/stackAndQueue/MinStack2.java	/^	public int getMin(){$/;"	m	class:MinStack2
+getMinKNumsByHeap	src/main/java/arrays/MinKNumByHeap.java	/^	private int[] getMinKNumsByHeap(int[] arr, int k) {$/;"	m	class:MinKNumByHeap	file:
+getMinLength	src/main/java/arrays/MinLengthNeedSort.java	/^	private int getMinLength(int[] arr) {$/;"	m	class:MinLengthNeedSort	file:
+getName	src/main/java/sort/BinaryInsertSort.java	/^	public String getName() {$/;"	m	class:BinaryInsertSort
+getName	src/main/java/sort/BubbleSort.java	/^	public String getName() {$/;"	m	class:BubbleSort
+getName	src/main/java/sort/BucketSort.java	/^	public String getName() {$/;"	m	class:BucketSort
+getName	src/main/java/sort/CocktailSort.java	/^	public String getName() {$/;"	m	class:CocktailSort
+getName	src/main/java/sort/HeapSort.java	/^	public String getName() {$/;"	m	class:HeapSort
+getName	src/main/java/sort/ISort.java	/^	String getName();$/;"	m	interface:ISort
+getName	src/main/java/sort/MergeSort.java	/^	public String getName() {$/;"	m	class:MergeSort
+getName	src/main/java/sort/QuickSort.java	/^	public String getName() {$/;"	m	class:QuickSort
+getName	src/main/java/sort/RadixSort.java	/^	public String getName() {$/;"	m	class:RadixSort
+getName	src/main/java/sort/ShellSort.java	/^	public String getName() {$/;"	m	class:ShellSort
+getName	src/main/java/sort/SingleInsertSort.java	/^	public String getName() {$/;"	m	class:SingleInsertSort
+getName	src/main/java/sort/SingleSelectSort.java	/^	public String getName() {$/;"	m	class:SingleSelectSort
+getNext	src/main/java/model/LinkNode.java	/^	public LinkNode getNext(){$/;"	m	class:LinkNode
+getNodes	src/main/java/stackAndQueue/MaxTree.java	/^	private TreeNode[] getNodes(int[] arr) {$/;"	m	class:MaxTree	file:
+getNum	src/main/java/arrays/MaxBetweenMinArrays.java	/^	public int getNum(int[] arr, int num){$/;"	m	class:MaxBetweenMinArrays
+getNumForMSysNum	src/main/java/random/RandomNM.java	/^	public int getNumForMSysNum(int[] mSysNum, int m){$/;"	m	class:RandomNM
+getOneAppearTimes	src/main/java/other/CountOneAppearTimes.java	/^	public int getOneAppearTimes(int num) {$/;"	m	class:CountOneAppearTimes
+getOrder	src/main/java/actual/combat/lineup/LineUp.java	/^	public int getOrder(ILineObservable person) {$/;"	m	class:LineUp
+getPalindrome	src/main/java/arrays/Palindrome.java	/^	private String getPalindrome(String str) {$/;"	m	class:Palindrome	file:
+getPet	src/main/java/pet/PetEnterQueue.java	/^	public Pet getPet(){$/;"	m	class:PetEnterQueue
+getPosition	src/main/java/actual/combat/lineup2/ILineObserver.java	/^	int getPosition(ILinePerson person);$/;"	m	interface:ILineObserver
+getPosition	src/main/java/actual/combat/lineup2/ILinePerson.java	/^	int getPosition();$/;"	m	interface:ILinePerson
+getPosition	src/main/java/actual/combat/lineup2/LinePerson.java	/^	public int getPosition() {$/;"	m	class:LinePerson
+getPosition	src/main/java/actual/combat/lineup2/LineUp.java	/^	public int getPosition(ILinePerson person) {$/;"	m	class:LineUp
+getPowerSet	src/main/java/arrays/PowerSet.java	/^	public void getPowerSet(int[] arr){$/;"	m	class:PowerSet
+getRanMSysNumLessN	src/main/java/random/RandomNM.java	/^	public int[] getRanMSysNumLessN(int[] nMSys, int m){$/;"	m	class:RandomNM
+getRandom	src/main/java/other/RandomPool.java	/^	public K getRandom() {$/;"	m	class:RandomPool
+getRandom	src/main/java/random/CustomRandom.java	/^	private static long getRandom(long seed) {$/;"	m	class:CustomRandom	file:
+getResult	src/main/java/arrays/ArrayProblem.java	/^	public Object getResult() {$/;"	m	class:ArrayProblem
+getResult	src/main/java/arrays/MaxAscSubsequence.java	/^	public Object getResult() {$/;"	m	class:MaxAscSubsequence
+getResult	src/main/java/arrays/MinKNumByHeap.java	/^	public Object getResult() {$/;"	m	class:MinKNumByHeap
+getResult	src/main/java/arrays/MinLengthNeedSort.java	/^	public Object getResult() {$/;"	m	class:MinLengthNeedSort
+getResult	src/main/java/base/IProblem.java	/^	Object getResult();$/;"	m	interface:IProblem
+getResult	src/main/java/base/Problem.java	/^	public Object getResult() {$/;"	m	class:Problem
+getResult	src/main/java/matrix/MatrixCirclePrint.java	/^	public Object getResult() {$/;"	m	class:MatrixCirclePrint
+getResult	src/main/java/matrix/MatrixProblem.java	/^	public Object getResult() {$/;"	m	class:MatrixProblem
+getRight	src/main/java/model/TreeNode.java	/^	public TreeNode getRight() {$/;"	m	class:TreeNode
+getRoot	src/main/java/model/BinaryTree.java	/^	public TreeNode getRoot() {$/;"	m	class:BinaryTree
+getRowCount	src/main/java/matrix/Matrix.java	/^    public int getRowCount() {$/;"	m	class:Matrix
+getSpace	src/main/java/model/BinaryTree.java	/^	private String getSpace(int num) {$/;"	m	class:BinaryTree	file:
+getSub	src/main/java/matrix/Matrix.java	/^    public Matrix getSub(int srow,int erow, int scol, int ecol) {$/;"	m	class:Matrix
+getTimes	src/main/java/arrays/LargestNum.java	/^	private int getTimes(int max) {$/;"	m	class:LargestNum	file:
+getTimes	src/main/java/sort/RadixSort.java	/^	private int getTimes(int max) {$/;"	m	class:RadixSort	file:
+getType	src/main/java/pet/Pet.java	/^	public String getType(){$/;"	m	class:Pet
+getValue	src/main/java/model/LinkNode.java	/^	public Integer getValue(){$/;"	m	class:LinkNode
+getValue	src/main/java/model/TreeNode.java	/^	public int getValue() {$/;"	m	class:TreeNode
+hanoi	src/main/java/stackAndQueue/Hanoi.java	/^	public int hanoi(int num, String left, String mid, String right) {$/;"	m	class:Hanoi
+headMap	src/main/java/other/MessageBox.java	/^	private HashMap<Integer, LinkNode> headMap;$/;"	f	class:MessageBox	file:
+heapInsert	src/main/java/arrays/MinKNumByHeap.java	/^	public void heapInsert(int[] arr, int value, int index) {$/;"	m	class:MinKNumByHeap
+heapify	src/main/java/arrays/MinKNumByHeap.java	/^	public void heapify(int[] arr, int index, int heapSize) {$/;"	m	class:MinKNumByHeap
+inOrder	src/main/java/model/BinaryTree.java	/^	public List<Integer> inOrder() {$/;"	m	class:BinaryTree
+inOrderMorris	src/main/java/model/BinaryTree.java	/^	public void inOrderMorris(TreeNode head) {$/;"	m	class:BinaryTree
+inOrderTravers	src/main/java/model/BinaryTree.java	/^	public void inOrderTravers(TreeNode head) {$/;"	m	class:BinaryTree
+inPos	src/main/java/tree/ArrayToTree.java	/^	private TreeNode inPos(List<Integer> n, int ni, int nj, List<Integer> s, int si, int sj,$/;"	m	class:ArrayToTree	file:
+inPosToTree	src/main/java/tree/ArrayToTree.java	/^	public TreeNode inPosToTree(List<Integer> in, List<Integer> pos) {$/;"	m	class:ArrayToTree
+indexKeyMap	src/main/java/other/RandomPool.java	/^	private HashMap<Integer, K> indexKeyMap;$/;"	f	class:RandomPool	file:
+init	gradlew.bat	/^:init$/;"	l
+init	src/test/java/arrays/MaxSumSubTest.java	/^    public void init() { $/;"	m	class:MaxSumSubTest
+init	src/test/java/matrix/MatrixTest.java	/^    public void init() {$/;"	m	class:MatrixTest
+initControls	build/reports/tests/js/report.js	/^    function initControls() {$/;"	f
+initTabs	build/reports/tests/js/report.js	/^    function initTabs() {$/;"	f
+insert	src/main/java/model/BinaryTree.java	/^	public void insert(TreeNode node, int data) {$/;"	m	class:BinaryTree
+insert	src/main/java/other/RandomPool.java	/^	public boolean insert(K... elem) {$/;"	m	class:RandomPool
+isBST	src/main/java/tree/SearchTree.java	/^	public boolean isBST(TreeNode head){$/;"	m	class:SearchTree
+isBalance	src/main/java/tree/BinTreeIsBalance.java	/^	public boolean isBalance(TreeNode head) {$/;"	m	class:BinTreeIsBalance
+isCBT	src/main/java/tree/CompBinTree.java	/^	public boolean isCBT(TreeNode head){$/;"	m	class:CompBinTree
+isCatQueueEmpty	src/main/java/pet/DogCatQueue.java	/^	public boolean isCatQueueEmpty(){$/;"	m	class:DogCatQueue
+isContain	src/main/java/matrix/MatrixFindNumber.java	/^	private void isContain(int[][] matrix, int k, List<Integer> point) {$/;"	m	class:MatrixFindNumber	file:
+isDogQueueEmpty	src/main/java/pet/DogCatQueue.java	/^	public boolean isDogQueueEmpty(){$/;"	m	class:DogCatQueue
+isEmpty	src/main/java/pet/DogCatQueue.java	/^	public boolean isEmpty(){$/;"	m	class:DogCatQueue
+isPalindrom	src/main/java/other/JudgeIntIsPalindrome.java	/^	public boolean isPalindrom(int n){$/;"	m	class:JudgeIntIsPalindrome
+isVaild	src/main/java/arrays/ArrayProblem.java	/^	private boolean isVaild(int[] datas){$/;"	m	class:ArrayProblem	file:
+isVaild	src/main/java/matrix/MatrixProblem.java	/^	private static boolean isVaild(int[][] m) {$/;"	m	class:MatrixProblem	file:
+isVaild	src/main/java/matrix/MatrixRotate.java	/^	private boolean isVaild(int[][] m) {$/;"	m	class:MatrixRotate	file:
+isValid	src/main/java/dp/NQueen.java	/^ 	private boolean isValid(int[] record, int i, int j){$/;"	m	class:NQueen	file:
+join	src/main/java/actual/combat/lineup/ILineObserver.java	/^	void join(ILineObservable person);$/;"	m	interface:ILineObserver
+join	src/main/java/actual/combat/lineup/LineUp.java	/^	public void join(ILineObservable person) {$/;"	m	class:LineUp
+join	src/main/java/actual/combat/lineup2/ILineObserver.java	/^	void join(ILinePerson person);$/;"	m	interface:ILineObserver
+join	src/main/java/actual/combat/lineup2/ILinePerson.java	/^	void join();$/;"	m	interface:ILinePerson
+join	src/main/java/actual/combat/lineup2/LinePerson.java	/^	public void join() {$/;"	m	class:LinePerson
+join	src/main/java/actual/combat/lineup2/LineUp.java	/^	public void join(ILinePerson person) {$/;"	m	class:LineUp
+jump	src/main/java/dp/JumpGame.java	/^	public int jump(int[] arr){$/;"	m	class:JumpGame
+k	src/main/java/arrays/IntSubMaxLength.java	/^	private int k;$/;"	f	class:IntSubMaxLength	file:
+k	src/main/java/arrays/MinKNumByHeap.java	/^	private int k;$/;"	f	class:MinKNumByHeap	file:
+k	src/main/java/arrays/PosIntSubMaxLength.java	/^	private int k;$/;"	f	class:PosIntSubMaxLength	file:
+keyIndexMap	src/main/java/other/RandomPool.java	/^	private HashMap<K, Integer> keyIndexMap;$/;"	f	class:RandomPool	file:
+kill	src/main/java/linklist/JosephusKill.java	/^	public static void kill(LinkNode head, int m){$/;"	m	class:JosephusKill
+largestNumber	src/main/java/arrays/LargestNum.java	/^	public String largestNumber(int[] nums) {$/;"	m	class:LargestNum
+largestNumber2	src/main/java/arrays/LargestNum.java	/^	public String largestNumber2(int[] nums) {$/;"	m	class:LargestNum
+last	src/main/java/model/LinkDoubleNode.java	/^	private LinkDoubleNode last;$/;"	f	class:LinkDoubleNode	file:
+lastPrint	src/main/java/other/MessageBox.java	/^	private int lastPrint;$/;"	f	class:MessageBox	file:
+lcse	src/main/java/arrays/MaxComSubsequence.java	/^	private String lcse(String str1, String str2) {$/;"	m	class:MaxComSubsequence	file:
+leave	src/main/java/actual/combat/lineup2/ILineObserver.java	/^	void leave(ILinePerson person);$/;"	m	interface:ILineObserver
+leave	src/main/java/actual/combat/lineup2/ILinePerson.java	/^	void leave();$/;"	m	interface:ILinePerson
+leave	src/main/java/actual/combat/lineup2/LinePerson.java	/^	public void leave() {$/;"	m	class:LinePerson
+leave	src/main/java/actual/combat/lineup2/LineUp.java	/^	public void leave(ILinePerson person) {$/;"	m	class:LineUp
+left	src/main/java/actual/combat/lineup/ILineObserver.java	/^	void left(ILineObservable person);$/;"	m	interface:ILineObserver
+left	src/main/java/actual/combat/lineup/LineUp.java	/^	public void left(ILineObservable person) {$/;"	m	class:LineUp
+left	src/main/java/model/TreeNode.java	/^	private TreeNode left;$/;"	f	class:TreeNode	file:
+length	src/main/java/arrays/IntSubMaxLength.java	/^	private int length;$/;"	f	class:IntSubMaxLength	file:
+length	src/main/java/arrays/PosIntSubMaxLength.java	/^	private int length;$/;"	f	class:PosIntSubMaxLength	file:
+levelOrder	src/main/java/model/BinaryTree.java	/^	public void levelOrder(TreeNode head) {$/;"	m	class:BinaryTree
+linklist	src/main/java/linklist/JosephusKill.java	/^package linklist;$/;"	p
+linklist	src/main/java/linklist/LinkList.java	/^package linklist;$/;"	p
+linklist	src/main/java/linklist/LinkUntil.java	/^package linklist;$/;"	p
+linklist	src/main/java/linklist/MainTest.java	/^package linklist;$/;"	p
+linklist	src/main/java/linklist/Teacher.java	/^package linklist;$/;"	p
+m	src/main/java/arrays/PrintRandomArrayElem.java	/^	private int m;$/;"	f	class:PrintRandomArrayElem	file:
+m	src/test/java/matrix/MatrixTest.java	/^    private Matrix m;$/;"	f	class:MatrixTest	file:
+mK	src/main/java/matrix/MatrixFindNumber.java	/^	private int mK;$/;"	f	class:MatrixFindNumber	file:
+mRandom	src/main/java/random/CustomRandom.java	/^	static long mRandom;$/;"	f	class:CustomRandom
+main	src/main/java/actual/combat/lineup/MainTest.java	/^	public static void main(String[] args) {$/;"	m	class:MainTest
+main	src/main/java/actual/combat/lineup2/MainTest.java	/^	public static void main(String[] args) {$/;"	m	class:MainTest
+main	src/main/java/arrays/ArrChange.java	/^	public static void main(String[] args) {$/;"	m	class:ArrChange
+main	src/main/java/arrays/LargestNum.java	/^	public static void main(String[] args) {$/;"	m	class:LargestNum
+main	src/main/java/arrays/MainTest.java	/^	public static void main(String[] args) {$/;"	m	class:MainTest
+main	src/main/java/arrays/MinKNumByHeap.java	/^	public static void main(String[] args) {$/;"	m	class:MinKNumByHeap
+main	src/main/java/arrays/PowerSet.java	/^	public static void main(String[] args) {$/;"	m	class:PowerSet
+main	src/main/java/arrays/PrintRandomArrayElem.java	/^	public static void main(String[] args) {$/;"	m	class:PrintRandomArrayElem
+main	src/main/java/dp/JumpGame.java	/^	public static void main(String[] args) {$/;"	m	class:JumpGame
+main	src/main/java/dp/NQueen.java	/^	public static void main(String[] args) {$/;"	m	class:NQueen
+main	src/main/java/friendly/MainTest.java	/^	public static void main(String[] args) {$/;"	m	class:MainTest
+main	src/main/java/linklist/MainTest.java	/^	public static void main(String[] args) {$/;"	m	class:MainTest
+main	src/main/java/matrix/MainTest.java	/^	public static void main(String[] args) {$/;"	m	class:MainTest
+main	src/main/java/matrix/MinPathValue.java	/^	public static void main(String[] args) {$/;"	m	class:MinPathValue
+main	src/main/java/other/CountOneAppearTimes.java	/^	public static void main(String[] args) {$/;"	m	class:CountOneAppearTimes
+main	src/main/java/other/FactrialLastOnePos.java	/^	public static void main(String[] args) {$/;"	m	class:FactrialLastOnePos
+main	src/main/java/other/FactrialLastZeroNum.java	/^	public static void main(String[] args) {$/;"	m	class:FactrialLastZeroNum
+main	src/main/java/other/JudgeIntIsPalindrome.java	/^	public static void main(String[] args) {$/;"	m	class:JudgeIntIsPalindrome
+main	src/main/java/other/MessageBox.java	/^	public static void main(String[] args) {$/;"	m	class:MessageBox
+main	src/main/java/other/OrigamiProblem.java	/^	public static void main(String[] args) {$/;"	m	class:OrigamiProblem
+main	src/main/java/other/RandXPowerK.java	/^	public static void main(String[] args) {$/;"	m	class:RandXPowerK
+main	src/main/java/other/RandomPool.java	/^	public static void main(String[] args) {$/;"	m	class:RandomPool
+main	src/main/java/other/ReservoirAlgorithm.java	/^	public static void main(String[] args) {$/;"	m	class:ReservoirAlgorithm
+main	src/main/java/other/UnformedSum.java	/^	public static void main(String[] args) {$/;"	m	class:UnformedSum
+main	src/main/java/pet/DogCatQueue.java	/^	public static void main(String[] args) {$/;"	m	class:DogCatQueue
+main	src/main/java/random/CustomRandom.java	/^	public static void main(String[] args) {$/;"	m	class:CustomRandom
+main	src/main/java/random/RandomExtend.java	/^	public static void main(String[] args) {$/;"	m	class:RandomExtend
+main	src/main/java/random/RandomNM.java	/^	public static void main(String[] args) {$/;"	m	class:RandomNM
+main	src/main/java/sort/MainTest.java	/^	public static void main(String[] args) {$/;"	m	class:MainTest
+main	src/main/java/sort/SingleInsertSort.java	/^	public static void main(String[] args) {$/;"	m	class:SingleInsertSort
+main	src/main/java/stackAndQueue/Hanoi.java	/^	public static void main(String[] args) {$/;"	m	class:Hanoi
+main	src/main/java/stackAndQueue/MaxRecSize.java	/^	public static void main(String[] args) {$/;"	m	class:MaxRecSize
+main	src/main/java/stackAndQueue/MaxTree.java	/^	public static void main(String[] args) {$/;"	m	class:MaxTree
+main	src/main/java/stackAndQueue/MaxWindow.java	/^	public static void main(String[] args) {$/;"	m	class:MaxWindow
+main	src/main/java/stackAndQueue/MinStack.java	/^	public static void main(String[] args) {$/;"	m	class:MinStack
+main	src/main/java/stackAndQueue/MinStack2.java	/^	public static void main(String[] args) {$/;"	m	class:MinStack2
+main	src/main/java/stackAndQueue/StackUntil.java	/^	public static void main(String[] args) {$/;"	m	class:StackUntil
+main	src/main/java/stackAndQueue/TwoStackQueue.java	/^	public static void main(String[] args) {$/;"	m	class:TwoStackQueue
+main	src/main/java/tree/ArrayToTree.java	/^	public static void main(String[] args) {$/;"	m	class:ArrayToTree
+main	src/main/java/tree/BinTreeIsBalance.java	/^	public static void main(String[] args) {$/;"	m	class:BinTreeIsBalance
+main	src/main/java/tree/CompBinTree.java	/^	public static void main(String[] args) {$/;"	m	class:CompBinTree
+main	src/main/java/tree/MaxAndMin.java	/^	public static void main(String[] args) {$/;"	m	class:MaxAndMin
+main	src/main/java/tree/MaxLenBetNode.java	/^	public static void main(String[] args) {$/;"	m	class:MaxLenBetNode
+main	src/main/java/tree/SearchTree.java	/^	public static void main(String[] args) {$/;"	m	class:SearchTree
+main	src/main/java/tree/SerialTree.java	/^	public static void main(String[] args) {$/;"	m	class:SerialTree
+main	src/main/java/tree/TreeSearchTest.java	/^	public static void main(String[] args) {$/;"	m	class:TreeSearchTest
+mainEnd	gradlew.bat	/^:mainEnd$/;"	l
+matrix	src/main/java/matrix/MainTest.java	/^package matrix;$/;"	p
+matrix	src/main/java/matrix/Matrix.java	/^package matrix;$/;"	p
+matrix	src/main/java/matrix/MatrixCirclePrint.java	/^package matrix;$/;"	p
+matrix	src/main/java/matrix/MatrixFindNumber.java	/^package matrix;$/;"	p
+matrix	src/main/java/matrix/MatrixMinPathSum.java	/^package matrix;$/;"	p
+matrix	src/main/java/matrix/MatrixProblem.java	/^package matrix;$/;"	p
+matrix	src/main/java/matrix/MatrixRotate.java	/^package matrix;$/;"	p
+matrix	src/main/java/matrix/MatrixStrassen.java	/^package matrix;$/;"	p
+matrix	src/main/java/matrix/MatrixZigZagPrint.java	/^package matrix;$/;"	p
+matrix	src/main/java/matrix/MinPathValue.java	/^package matrix;$/;"	p
+matrix.test	src/test/java/matrix/MatrixTest.java	/^package matrix.test;$/;"	p
+max	src/main/java/arrays/MaxSumSub.java	/^	static int max(int a, int b, int c) {$/;"	m	class:MaxSumSub
+maxDistance	src/main/java/tree/MaxLenBetNode.java	/^	public int maxDistance(TreeNode head) {$/;"	m	class:MaxLenBetNode
+maxRecFromBottom	src/main/java/stackAndQueue/MaxRecSize.java	/^	public int maxRecFromBottom(int[] height) {$/;"	m	class:MaxRecSize
+maxRecSize	src/main/java/stackAndQueue/MaxRecSize.java	/^	public int maxRecSize(int[][] map) {$/;"	m	class:MaxRecSize
+merge	src/main/java/sort/MergeSort.java	/^	private void merge(int[] datas, int left, int middle, int right) {$/;"	m	class:MergeSort	file:
+mergeSort	src/main/java/sort/MergeSort.java	/^	private void mergeSort(int[] datas, int left, int right) {$/;"	m	class:MergeSort	file:
+message	src/main/java/matrix/Matrix.java	/^    private String message;$/;"	f	class:Matrix	file:
+minPathSum	src/main/java/matrix/MatrixMinPathSum.java	/^	public static int minPathSum(int[][] m) {$/;"	m	class:MatrixMinPathSum
+minPathValue	src/main/java/matrix/MinPathValue.java	/^	public int minPathValue(int[][] m) {$/;"	m	class:MinPathValue
+model	src/main/java/model/BinaryTree.java	/^package model;$/;"	p
+model	src/main/java/model/LinkDoubleNode.java	/^package model;$/;"	p
+model	src/main/java/model/LinkNode.java	/^package model;$/;"	p
+model	src/main/java/model/TreeNode.java	/^package model;$/;"	p
+multiply	src/main/java/matrix/Matrix.java	/^    public Matrix multiply(Matrix<T> m) throws Exception {$/;"	m	class:Matrix
+multiply	src/main/java/matrix/Matrix.java	/^    public Matrix multiply(Matrix<T> m, IOperate<T> ope) throws Exception {$/;"	m	class:Matrix
+name	src/main/java/actual/combat/lineup/Person.java	/^	private String name;$/;"	f	class:Person	file:
+name	src/main/java/actual/combat/lineup2/LinePerson.java	/^	private String name;$/;"	f	class:LinePerson	file:
+next	src/main/java/model/LinkNode.java	/^	private LinkNode next;$/;"	f	class:LinkNode	file:
+notice	src/main/java/actual/combat/lineup/ILineObservable.java	/^	void notice(int order);$/;"	m	interface:ILineObservable
+notice	src/main/java/actual/combat/lineup/ILineObserver.java	/^	void notice();$/;"	m	interface:ILineObserver
+notice	src/main/java/actual/combat/lineup/LineUp.java	/^	public void notice() {$/;"	m	class:LineUp
+notice	src/main/java/actual/combat/lineup/Person.java	/^	public void notice(int order) {$/;"	m	class:Person
+notice	src/main/java/actual/combat/lineup2/ILinePerson.java	/^	void notice();$/;"	m	interface:ILinePerson
+notice	src/main/java/actual/combat/lineup2/LinePerson.java	/^	public void notice() {$/;"	m	class:LinePerson
+notifyAllPerson	src/main/java/actual/combat/lineup2/ILineObserver.java	/^	void notifyAllPerson();$/;"	m	interface:ILineObserver
+notifyAllPerson	src/main/java/actual/combat/lineup2/LineUp.java	/^	public void notifyAllPerson() {$/;"	m	class:LineUp
+num	src/main/java/arrays/MinLengthNeedSort.java	/^	private int num = 0;$/;"	f	class:MinLengthNeedSort	file:
+observer	src/main/java/actual/combat/lineup2/LinePerson.java	/^	private ILineObserver observer;$/;"	f	class:LinePerson	file:
+omega	gradlew.bat	/^:omega$/;"	l
+operate	src/main/java/base/IOperate.java	/^    public T operate(T elem1, T elem2);$/;"	m	interface:IOperate
+other	src/main/java/other/CountOneAppearTimes.java	/^package other;$/;"	p
+other	src/main/java/other/FactrialLastOnePos.java	/^package other;$/;"	p
+other	src/main/java/other/FactrialLastZeroNum.java	/^package other;$/;"	p
+other	src/main/java/other/Gcd.java	/^package other;$/;"	p
+other	src/main/java/other/JudgeIntIsPalindrome.java	/^package other;$/;"	p
+other	src/main/java/other/MessageBox.java	/^package other;$/;"	p
+other	src/main/java/other/OrigamiProblem.java	/^package other;$/;"	p
+other	src/main/java/other/RandXPowerK.java	/^package other;$/;"	p
+other	src/main/java/other/RandomPool.java	/^package other;$/;"	p
+other	src/main/java/other/ReservoirAlgorithm.java	/^package other;$/;"	p
+other	src/main/java/other/UnformedSum.java	/^package other;$/;"	p
+outOfOrder	src/main/java/other/MessageBox.java	/^	private int[] outOfOrder(int[] arr) {$/;"	m	class:MessageBox	file:
+peek	src/main/java/stackAndQueue/TwoStackQueue.java	/^	public int peek(){$/;"	m	class:TwoStackQueue
+personList	src/main/java/actual/combat/lineup/LineUp.java	/^	private List<ILineObservable> personList;$/;"	f	class:LineUp	file:
+pet	src/main/java/pet/Cat.java	/^package pet;$/;"	p
+pet	src/main/java/pet/Dog.java	/^package pet;$/;"	p
+pet	src/main/java/pet/DogCatQueue.java	/^package pet;$/;"	p
+pet	src/main/java/pet/Pet.java	/^package pet;$/;"	p
+pet	src/main/java/pet/PetEnterQueue.java	/^	private Pet pet;$/;"	f	class:PetEnterQueue	file:
+pet	src/main/java/pet/PetEnterQueue.java	/^package pet;$/;"	p
+plus	src/main/java/base/IOperate.java	/^    public default T plus(T elem1, T elem2) {$/;"	m	interface:IOperate
+poll	src/main/java/stackAndQueue/TwoStackQueue.java	/^	public int poll(){$/;"	m	class:TwoStackQueue
+pollAll	src/main/java/pet/DogCatQueue.java	/^	public Pet pollAll(){$/;"	m	class:DogCatQueue
+pollCat	src/main/java/pet/DogCatQueue.java	/^	public Cat pollCat(){$/;"	m	class:DogCatQueue
+pollDog	src/main/java/pet/DogCatQueue.java	/^	public Dog pollDog(){$/;"	m	class:DogCatQueue
+pop	src/main/java/stackAndQueue/MinStack.java	/^	public int pop(){		$/;"	m	class:MinStack
+pop	src/main/java/stackAndQueue/MinStack2.java	/^	public int pop(){$/;"	m	class:MinStack2
+popStackSetMap	src/main/java/stackAndQueue/MaxTree.java	/^	private void popStackSetMap(Stack<TreeNode> stack, HashMap<TreeNode, TreeNode> map) {$/;"	m	class:MaxTree	file:
+posOrder	src/main/java/tree/MaxLenBetNode.java	/^	private int posOrder(TreeNode head, int[] record) {$/;"	m	class:MaxLenBetNode	file:
+postOrder	src/main/java/model/BinaryTree.java	/^	public List<Integer> postOrder() {$/;"	m	class:BinaryTree
+postOrder2	src/main/java/model/BinaryTree.java	/^	public void postOrder2() {$/;"	m	class:BinaryTree
+postOrderMorris	src/main/java/model/BinaryTree.java	/^	public void postOrderMorris(TreeNode head) {$/;"	m	class:BinaryTree
+postOrderTravers	src/main/java/model/BinaryTree.java	/^	public void postOrderTravers(TreeNode head) {$/;"	m	class:BinaryTree
+powerBaseOf10	src/main/java/other/CountOneAppearTimes.java	/^	private int powerBaseOf10(int base) {$/;"	m	class:CountOneAppearTimes	file:
+preIn	src/main/java/tree/ArrayToTree.java	/^	private TreeNode preIn(List<Integer> p, int pi, int pj, List<Integer> n, int ni, int nj,$/;"	m	class:ArrayToTree	file:
+preInToTree	src/main/java/tree/ArrayToTree.java	/^	public TreeNode preInToTree(List<Integer> pre, List<Integer> in) {$/;"	m	class:ArrayToTree
+preOrder	src/main/java/model/BinaryTree.java	/^	public List<Integer> preOrder() {$/;"	m	class:BinaryTree
+preOrder	src/main/java/tree/MaxAndMin.java	/^	public static int preOrder(TreeNode head, int sum, int preSum, int level, int maxLen,$/;"	m	class:MaxAndMin
+preOrderMorris	src/main/java/model/BinaryTree.java	/^	public void preOrderMorris(TreeNode head) {$/;"	m	class:BinaryTree
+preOrderTravers	src/main/java/model/BinaryTree.java	/^	public void preOrderTravers(TreeNode head) {$/;"	m	class:BinaryTree
+prePos	src/main/java/tree/ArrayToTree.java	/^	private TreeNode prePos(List<Integer> p, int pi, int pj, List<Integer> s, int si, int sj,$/;"	m	class:ArrayToTree	file:
+prePosToTree	src/main/java/tree/ArrayToTree.java	/^	public TreeNode prePosToTree(List<Integer> pre, List<Integer> pos) {$/;"	m	class:ArrayToTree
+print	src/main/java/other/MessageBox.java	/^	private void print() {$/;"	m	class:MessageBox	file:
+printAllFolds	src/main/java/other/OrigamiProblem.java	/^	public void printAllFolds(int n){		$/;"	m	class:OrigamiProblem
+printCommonPart	src/main/java/linklist/LinkUntil.java	/^	public static void printCommonPart(LinkNode head1, LinkNode head2) {$/;"	m	class:LinkUntil
+printEdge	src/main/java/matrix/MatrixCirclePrint.java	/^	private int printEdge(int[] tmp, int tR, int tC, int dR, int dC, int count) {$/;"	m	class:MatrixCirclePrint	file:
+printEdge	src/main/java/model/BinaryTree.java	/^	private void printEdge(TreeNode head) {$/;"	m	class:BinaryTree	file:
+printInOrder	src/main/java/model/BinaryTree.java	/^	private void printInOrder(TreeNode head, int height, String to, int len) {$/;"	m	class:BinaryTree	file:
+printLevel	src/main/java/matrix/MatrixZigZagPrint.java	/^	private int printLevel(int[][] m, int tR, int tC, int dR, int dC, boolean f, int[] result, int count) {$/;"	m	class:MatrixZigZagPrint	file:
+printMatrixZigZag	src/main/java/matrix/MatrixZigZagPrint.java	/^	private int[] printMatrixZigZag(int[][] m) {$/;"	m	class:MatrixZigZagPrint	file:
+printProcess	src/main/java/other/OrigamiProblem.java	/^	private void printProcess(int i, int n, boolean down){$/;"	m	class:OrigamiProblem	file:
+printRandom	src/main/java/arrays/PrintRandomArrayElem.java	/^	private void printRandom(int[] datas, int m){$/;"	m	class:PrintRandomArrayElem	file:
+printTree	src/main/java/model/BinaryTree.java	/^	public void printTree(TreeNode head) {$/;"	m	class:BinaryTree
+process	src/main/java/dp/NQueen.java	/^	private int process(int i, int[] record, int n){$/;"	m	class:NQueen	file:
+process	src/main/java/other/UnformedSum.java	/^	private void process(int[] arr, int i, int sum, HashSet<Integer> set) {$/;"	m	class:UnformedSum	file:
+process	src/main/java/stackAndQueue/Hanoi.java	/^	private int process(int num, String left, String mid, String right, String from, String to) {$/;"	m	class:Hanoi	file:
+push	src/main/java/stackAndQueue/MinStack.java	/^	public void push(int newNum){$/;"	m	class:MinStack
+push	src/main/java/stackAndQueue/MinStack2.java	/^	public void push(int newNum){$/;"	m	class:MinStack2
+queue	src/main/java/actual/combat/lineup2/LineUp.java	/^	private Queue<ILinePerson> queue;$/;"	f	class:LineUp	file:
+quickSort	src/main/java/sort/QuickSort.java	/^	private void quickSort(int[] datas, int low, int high){$/;"	m	class:QuickSort	file:
+rand	src/main/java/other/ReservoirAlgorithm.java	/^	private int rand(int max) {$/;"	m	class:ReservoirAlgorithm	file:
+rand01	src/main/java/random/RandomExtend.java	/^	public int rand01(){$/;"	m	class:RandomExtend
+rand01p	src/main/java/random/RandomExtend.java	/^	public int rand01p(){$/;"	m	class:RandomExtend
+rand0To3	src/main/java/random/RandomExtend.java	/^	public int rand0To3(){$/;"	m	class:RandomExtend
+rand1To5	src/main/java/random/RandomExtend.java	/^	public int rand1To5(){$/;"	m	class:RandomExtend
+rand1To6	src/main/java/random/RandomExtend.java	/^	public int rand1To6(){$/;"	m	class:RandomExtend
+rand1To7	src/main/java/random/RandomExtend.java	/^	public int rand1To7(){$/;"	m	class:RandomExtend
+rand1ToM	src/main/java/random/RandomExtend.java	/^	public int rand1ToM(int m){$/;"	m	class:RandomExtend
+rand1ToM	src/main/java/random/RandomNM.java	/^	public int rand1ToM(int m){$/;"	m	class:RandomNM
+rand1ToN	src/main/java/random/RandomExtend.java	/^	public int rand1ToN(int n, int m){$/;"	m	class:RandomExtend
+rand1ToN	src/main/java/random/RandomNM.java	/^	public int rand1ToN(int n, int m){$/;"	m	class:RandomNM
+randXPower	src/main/java/other/RandXPowerK.java	/^	public double randXPower(int k){$/;"	m	class:RandXPowerK
+random	src/main/java/random/CustomRandom.java	/^package random;$/;"	p
+random	src/main/java/random/RandomExtend.java	/^package random;$/;"	p
+random	src/main/java/random/RandomNM.java	/^package random;$/;"	p
+receive	src/main/java/other/MessageBox.java	/^	public void receive(int num) {$/;"	m	class:MessageBox
+removeByRatio	src/main/java/linklist/LinkUntil.java	/^	public static LinkNode removeByRatio(LinkNode head, int a, int b) {$/;"	m	class:LinkUntil
+removeClass	build/reports/tests/js/report.js	/^    function removeClass(element, classValue) {$/;"	f
+removeLastKthNode	src/main/java/linklist/LinkUntil.java	/^	public static LinkDoubleNode removeLastKthNode(LinkDoubleNode head, int lastKth) {$/;"	m	class:LinkUntil
+removeLastKthNode	src/main/java/linklist/LinkUntil.java	/^	public static LinkNode removeLastKthNode(LinkNode head, int lastKth) {$/;"	m	class:LinkUntil
+removeMidNode	src/main/java/linklist/LinkUntil.java	/^	public static LinkNode removeMidNode(LinkNode head) {$/;"	m	class:LinkUntil
+res	src/main/java/arrays/MinKNumByHeap.java	/^	private int[] res;$/;"	f	class:MinKNumByHeap	file:
+result	src/main/java/arrays/MaxAscSubsequence.java	/^	private int[] result;$/;"	f	class:MaxAscSubsequence	file:
+result	src/main/java/arrays/MaxComSubsequence.java	/^	private String result;$/;"	f	class:MaxComSubsequence	file:
+result	src/main/java/matrix/MatrixCirclePrint.java	/^	private int[] result;$/;"	f	class:MatrixCirclePrint	file:
+result	src/main/java/matrix/MatrixFindNumber.java	/^	private List<Integer> result;$/;"	f	class:MatrixFindNumber	file:
+result	src/main/java/matrix/MatrixZigZagPrint.java	/^	private int[] result;$/;"	f	class:MatrixZigZagPrint	file:
+reverse	src/main/java/arrays/ArrChange.java	/^	private void reverse(int[] arr, int start, int end) {$/;"	m	class:ArrChange	file:
+reverse	src/main/java/stackAndQueue/MaxTree.java	/^	private void reverse(TreeNode[] nodes) {$/;"	m	class:MaxTree	file:
+reverse	src/main/java/stackAndQueue/StackUntil.java	/^	public static void reverse(Stack<Integer> stack) {$/;"	m	class:StackUntil
+reverse	src/main/java/stackAndQueue/TwoStackQueue.java	/^	private void reverse(){		$/;"	m	class:TwoStackQueue	file:
+reverseEdge	src/main/java/model/BinaryTree.java	/^	public TreeNode reverseEdge(TreeNode head) {$/;"	m	class:BinaryTree
+reverseList	src/main/java/linklist/LinkUntil.java	/^	public static LinkDoubleNode reverseList(LinkDoubleNode head) {$/;"	m	class:LinkUntil
+reverseList	src/main/java/linklist/LinkUntil.java	/^	public static LinkNode reverseList(LinkNode head) {$/;"	m	class:LinkUntil
+reversePart	src/main/java/linklist/LinkUntil.java	/^	public static LinkNode reversePart(LinkNode head, int from, int to) {$/;"	m	class:LinkUntil
+right	src/main/java/model/TreeNode.java	/^	private TreeNode right;$/;"	f	class:TreeNode	file:
+rightOne1	src/main/java/other/FactrialLastOnePos.java	/^	public int rightOne1(int num){$/;"	m	class:FactrialLastOnePos
+rightOne2	src/main/java/other/FactrialLastOnePos.java	/^	public int rightOne2(int num){$/;"	m	class:FactrialLastOnePos
+root	src/main/java/model/BinaryTree.java	/^	private TreeNode root;$/;"	f	class:BinaryTree	file:
+rotate	src/main/java/matrix/MatrixRotate.java	/^	public void rotate(int[][] m) {$/;"	m	class:MatrixRotate
+rotateEdge	src/main/java/matrix/MatrixRotate.java	/^	private void rotateEdge(int[][] m, int tR, int tC, int dR, int dC) {$/;"	m	class:MatrixRotate	file:
+select	build/reports/tests/js/report.js	/^    function select(i) {$/;"	c
+serail	src/main/java/tree/SerialTree.java	/^	public static String serail(TreeNode head){$/;"	m	class:SerialTree
+setLast	src/main/java/model/LinkDoubleNode.java	/^	public void setLast(LinkDoubleNode last){$/;"	m	class:LinkDoubleNode
+setLeft	src/main/java/model/TreeNode.java	/^	public void setLeft(TreeNode left) {$/;"	m	class:TreeNode
+setNext	src/main/java/model/LinkNode.java	/^	public void setNext(LinkNode next){$/;"	m	class:LinkNode
+setRight	src/main/java/model/TreeNode.java	/^	public void setRight(TreeNode right) {$/;"	m	class:TreeNode
+setValue	src/main/java/model/TreeNode.java	/^	public void setValue(int value) {$/;"	m	class:TreeNode
+show	src/main/java/sort/SortContext.java	/^	public void show(int datas[]){$/;"	m	class:SortContext
+showArrays	src/main/java/arrays/MainTest.java	/^	public static void showArrays(int[] arr){$/;"	m	class:MainTest
+showHeadMap	src/main/java/other/MessageBox.java	/^	private void showHeadMap(){$/;"	m	class:MessageBox	file:
+showMatrix	src/main/java/matrix/MainTest.java	/^	public static void showMatrix(int[][] m) {$/;"	m	class:MainTest
+showResult	src/main/java/arrays/ArrayProblem.java	/^	public void showResult() {$/;"	m	class:ArrayProblem
+showResult	src/main/java/arrays/IntSubMaxLength.java	/^	public void showResult() {$/;"	m	class:IntSubMaxLength
+showResult	src/main/java/arrays/MaxAscSubsequence.java	/^	public void showResult() {$/;"	m	class:MaxAscSubsequence
+showResult	src/main/java/arrays/MaxComSubsequence.java	/^	public void showResult() {$/;"	m	class:MaxComSubsequence
+showResult	src/main/java/arrays/MinKNumByHeap.java	/^	public void showResult() {$/;"	m	class:MinKNumByHeap
+showResult	src/main/java/arrays/MinLengthNeedSort.java	/^	public void showResult() {$/;"	m	class:MinLengthNeedSort
+showResult	src/main/java/arrays/Palindrome.java	/^	public void showResult() {$/;"	m	class:Palindrome
+showResult	src/main/java/arrays/PosIntSubMaxLength.java	/^	public void showResult() {$/;"	m	class:PosIntSubMaxLength
+showResult	src/main/java/arrays/PrintRandomArrayElem.java	/^	public void showResult() {$/;"	m	class:PrintRandomArrayElem
+showResult	src/main/java/base/IProblem.java	/^	void showResult();$/;"	m	interface:IProblem
+showResult	src/main/java/base/Problem.java	/^	public void showResult() {$/;"	m	class:Problem
+showResult	src/main/java/matrix/MatrixCirclePrint.java	/^	public void showResult() {$/;"	m	class:MatrixCirclePrint
+showResult	src/main/java/matrix/MatrixFindNumber.java	/^	public void showResult() {$/;"	m	class:MatrixFindNumber
+showResult	src/main/java/matrix/MatrixMinPathSum.java	/^	public void showResult() {$/;"	m	class:MatrixMinPathSum
+showResult	src/main/java/matrix/MatrixProblem.java	/^	public void showResult() {$/;"	m	class:MatrixProblem
+showResult	src/main/java/matrix/MatrixZigZagPrint.java	/^	public void showResult() {$/;"	m	class:MatrixZigZagPrint
+size	src/main/java/other/RandomPool.java	/^	private int size;$/;"	f	class:RandomPool	file:
+solve	src/main/java/arrays/ArrayProblem.java	/^	public boolean solve() {$/;"	m	class:ArrayProblem
+solve	src/main/java/arrays/IntSubMaxLength.java	/^	public boolean solve() {$/;"	m	class:IntSubMaxLength
+solve	src/main/java/arrays/MaxAscSubsequence.java	/^	public boolean solve() {$/;"	m	class:MaxAscSubsequence
+solve	src/main/java/arrays/MaxComSubsequence.java	/^	public boolean solve() {$/;"	m	class:MaxComSubsequence
+solve	src/main/java/arrays/MinKNumByHeap.java	/^	public boolean solve() {$/;"	m	class:MinKNumByHeap
+solve	src/main/java/arrays/MinLengthNeedSort.java	/^	public boolean solve() {$/;"	m	class:MinLengthNeedSort
+solve	src/main/java/arrays/Palindrome.java	/^	public boolean solve() {$/;"	m	class:Palindrome
+solve	src/main/java/arrays/PosIntSubMaxLength.java	/^	public boolean solve() {$/;"	m	class:PosIntSubMaxLength
+solve	src/main/java/arrays/PrintRandomArrayElem.java	/^	public boolean solve() {$/;"	m	class:PrintRandomArrayElem
+solve	src/main/java/base/IProblem.java	/^	boolean solve();$/;"	m	interface:IProblem
+solve	src/main/java/base/Problem.java	/^	public boolean solve() {$/;"	m	class:Problem
+solve	src/main/java/matrix/MatrixCirclePrint.java	/^	public boolean solve() {$/;"	m	class:MatrixCirclePrint
+solve	src/main/java/matrix/MatrixFindNumber.java	/^	public boolean solve() {$/;"	m	class:MatrixFindNumber
+solve	src/main/java/matrix/MatrixMinPathSum.java	/^	public boolean solve() {$/;"	m	class:MatrixMinPathSum
+solve	src/main/java/matrix/MatrixProblem.java	/^	public boolean solve() {$/;"	m	class:MatrixProblem
+solve	src/main/java/matrix/MatrixRotate.java	/^	public boolean solve() {$/;"	m	class:MatrixRotate
+solve	src/main/java/matrix/MatrixZigZagPrint.java	/^	public boolean solve() {$/;"	m	class:MatrixZigZagPrint
+solve1	src/main/java/other/CountOneAppearTimes.java	/^	public int solve1(int range) {$/;"	m	class:CountOneAppearTimes
+solve2	src/main/java/other/CountOneAppearTimes.java	/^	public int solve2(int range) {$/;"	m	class:CountOneAppearTimes
+sort	src/main/java/sort/BinaryInsertSort.java	/^	public void sort(int[] datas) {$/;"	m	class:BinaryInsertSort
+sort	src/main/java/sort/BinaryInsertSort.java	/^package sort;$/;"	p
+sort	src/main/java/sort/BubbleSort.java	/^	public void sort(int[] datas) {$/;"	m	class:BubbleSort
+sort	src/main/java/sort/BubbleSort.java	/^package sort;$/;"	p
+sort	src/main/java/sort/BucketSort.java	/^	public void sort(int[] datas) {$/;"	m	class:BucketSort
+sort	src/main/java/sort/BucketSort.java	/^package sort;$/;"	p
+sort	src/main/java/sort/CocktailSort.java	/^	public void sort(int[] datas) {$/;"	m	class:CocktailSort
+sort	src/main/java/sort/CocktailSort.java	/^package sort;$/;"	p
+sort	src/main/java/sort/HeapSort.java	/^	public void sort(int[] datas) {$/;"	m	class:HeapSort
+sort	src/main/java/sort/HeapSort.java	/^package sort;$/;"	p
+sort	src/main/java/sort/IDistributionSort.java	/^package sort;$/;"	p
+sort	src/main/java/sort/IExchangeSort.java	/^package sort;$/;"	p
+sort	src/main/java/sort/IInsertSort.java	/^package sort;$/;"	p
+sort	src/main/java/sort/IMergerSort.java	/^package sort;$/;"	p
+sort	src/main/java/sort/ISelectSort.java	/^package sort;$/;"	p
+sort	src/main/java/sort/ISort.java	/^	void sort(int[] datas);$/;"	m	interface:ISort
+sort	src/main/java/sort/ISort.java	/^package sort;$/;"	p
+sort	src/main/java/sort/MainTest.java	/^package sort;$/;"	p
+sort	src/main/java/sort/MergeSort.java	/^	public void sort(int[] datas) {$/;"	m	class:MergeSort
+sort	src/main/java/sort/MergeSort.java	/^package sort;$/;"	p
+sort	src/main/java/sort/QuickSort.java	/^	public void sort(int[] datas) {$/;"	m	class:QuickSort
+sort	src/main/java/sort/QuickSort.java	/^package sort;$/;"	p
+sort	src/main/java/sort/RadixSort.java	/^	public void sort(int[] datas) {$/;"	m	class:RadixSort
+sort	src/main/java/sort/RadixSort.java	/^package sort;$/;"	p
+sort	src/main/java/sort/ShellSort.java	/^	public void sort(int[] datas) {$/;"	m	class:ShellSort
+sort	src/main/java/sort/ShellSort.java	/^package sort;$/;"	p
+sort	src/main/java/sort/SingleInsertSort.java	/^	public void sort(int[] datas) {$/;"	m	class:SingleInsertSort
+sort	src/main/java/sort/SingleInsertSort.java	/^package sort;$/;"	p
+sort	src/main/java/sort/SingleSelectSort.java	/^	public void sort(int[] datas) {$/;"	m	class:SingleSelectSort
+sort	src/main/java/sort/SingleSelectSort.java	/^package sort;$/;"	p
+sort	src/main/java/sort/SortContext.java	/^	private ISort sort;$/;"	f	class:SortContext	file:
+sort	src/main/java/sort/SortContext.java	/^	public void sort(int datas[]) {$/;"	m	class:SortContext
+sort	src/main/java/sort/SortContext.java	/^package sort;$/;"	p
+sortStackByStack	src/main/java/stackAndQueue/StackUntil.java	/^	public static void sortStackByStack(Stack<Integer> stack){$/;"	m	class:StackUntil
+spiralOrderPrint	src/main/java/matrix/MatrixCirclePrint.java	/^	private int[] spiralOrderPrint() {$/;"	m	class:MatrixCirclePrint	file:
+splitJvmOpts	gradlew	/^function splitJvmOpts() {$/;"	f
+stackAndQueue	src/main/java/stackAndQueue/Hanoi.java	/^package stackAndQueue;$/;"	p
+stackAndQueue	src/main/java/stackAndQueue/MaxRecSize.java	/^package stackAndQueue;$/;"	p
+stackAndQueue	src/main/java/stackAndQueue/MaxTree.java	/^package stackAndQueue;$/;"	p
+stackAndQueue	src/main/java/stackAndQueue/MaxWindow.java	/^package stackAndQueue;$/;"	p
+stackAndQueue	src/main/java/stackAndQueue/MinStack.java	/^package stackAndQueue;$/;"	p
+stackAndQueue	src/main/java/stackAndQueue/MinStack2.java	/^package stackAndQueue;$/;"	p
+stackAndQueue	src/main/java/stackAndQueue/StackUntil.java	/^package stackAndQueue;$/;"	p
+stackAndQueue	src/main/java/stackAndQueue/TwoStackQueue.java	/^package stackAndQueue;$/;"	p
+stackData	src/main/java/stackAndQueue/MinStack.java	/^	private Stack<Integer> stackData;$/;"	f	class:MinStack	file:
+stackData	src/main/java/stackAndQueue/MinStack2.java	/^	private Stack<Integer> stackData;$/;"	f	class:MinStack2	file:
+stackMin	src/main/java/stackAndQueue/MinStack.java	/^	private Stack<Integer> stackMin;$/;"	f	class:MinStack	file:
+stackMin	src/main/java/stackAndQueue/MinStack2.java	/^	private Stack<Integer> stackMin;$/;"	f	class:MinStack2	file:
+stackPop	src/main/java/stackAndQueue/TwoStackQueue.java	/^	public Stack<Integer> stackPop;$/;"	f	class:TwoStackQueue
+stackPush	src/main/java/stackAndQueue/TwoStackQueue.java	/^	public Stack<Integer> stackPush;$/;"	f	class:TwoStackQueue
+str1	src/main/java/arrays/MaxComSubsequence.java	/^	private String str1;$/;"	f	class:MaxComSubsequence	file:
+str2	src/main/java/arrays/MaxComSubsequence.java	/^	private String str2;$/;"	f	class:MaxComSubsequence	file:
+string	src/main/java/arrays/Palindrome.java	/^	private String string;$/;"	f	class:Palindrome	file:
+sub	src/test/java/arrays/MaxSumSubTest.java	/^    private MaxSumSub sub;$/;"	f	class:MaxSumSubTest	file:
+sum	src/main/java/matrix/MatrixMinPathSum.java	/^	private int sum;$/;"	f	class:MatrixMinPathSum	file:
+sum	src/test/java/arrays/MaxSumSubTest.java	/^    private int sum;$/;"	f	class:MaxSumSubTest	file:
+swap	src/main/java/arrays/ArrChange.java	/^	private void swap(int[] arr, int i, int j) {$/;"	m	class:ArrChange	file:
+swap	src/main/java/arrays/LargestNum.java	/^	public void swap(int[] arr, int i, int j) {$/;"	m	class:LargestNum
+swap	src/main/java/arrays/MinKNumByHeap.java	/^	private void swap(int[] arr, int index1, int index2) {$/;"	m	class:MinKNumByHeap	file:
+swap	src/main/java/sort/BubbleSort.java	/^	private void swap(int[] datas, int i, int j){$/;"	m	class:BubbleSort	file:
+swap	src/main/java/sort/CocktailSort.java	/^	private void swap(int[] datas, int i, int j) {$/;"	m	class:CocktailSort	file:
+swap	src/main/java/sort/HeapSort.java	/^	private void swap(int[] data, int i, int j) {$/;"	m	class:HeapSort	file:
+switchTab	build/reports/tests/js/report.js	/^    function switchTab() {$/;"	f
+tabs	build/reports/tests/js/report.js	/^    var tabs = {};$/;"	v
+tailMap	src/main/java/other/MessageBox.java	/^	private HashMap<Integer, LinkNode> tailMap;$/;"	f	class:MessageBox	file:
+test	src/main/java/tree/Tester.java	/^	void test(String name, TreeNode head);$/;"	m	interface:Tester
+testAll	src/main/java/arrays/MainTest.java	/^	public static void testAll(){$/;"	m	class:MainTest
+testDouble	src/test/java/matrix/MatrixTest.java	/^    public void testDouble() throws Exception {$/;"	m	class:MatrixTest
+testInt	src/test/java/matrix/MatrixTest.java	/^    public void testInt() throws Exception {$/;"	m	class:MatrixTest
+testMaxLength	src/main/java/arrays/MainTest.java	/^	public static void testMaxLength(int[] datas, int[] datas2){$/;"	m	class:MainTest
+testMaxSumSub	src/test/java/arrays/MaxSumSubTest.java	/^    public void testMaxSumSub() {$/;"	m	class:MaxSumSubTest
+toArray	src/main/java/matrix/Matrix.java	/^    public T[][] toArray() {$/;"	m	class:Matrix
+toString	src/main/java/matrix/Matrix.java	/^    public String toString() {$/;"	m	class:Matrix
+toString	src/main/java/other/RandomPool.java	/^	public String toString() {$/;"	m	class:RandomPool
+toggleLineWrapping	build/reports/tests/js/report.js	/^    function toggleLineWrapping() {$/;"	f
+tree	src/main/java/tree/ArrayToTree.java	/^package tree;$/;"	p
+tree	src/main/java/tree/BinTreeIsBalance.java	/^package tree;$/;"	p
+tree	src/main/java/tree/CompBinTree.java	/^package tree;$/;"	p
+tree	src/main/java/tree/MaxAndMin.java	/^package tree;$/;"	p
+tree	src/main/java/tree/MaxLenBetNode.java	/^package tree;$/;"	p
+tree	src/main/java/tree/SearchTree.java	/^package tree;$/;"	p
+tree	src/main/java/tree/SerialTree.java	/^package tree;$/;"	p
+tree	src/main/java/tree/Tester.java	/^package tree;$/;"	p
+tree	src/main/java/tree/TreeArray.java	/^package tree;$/;"	p
+tree	src/main/java/tree/TreeSearchTest.java	/^package tree;$/;"	p
+type	src/main/java/pet/Pet.java	/^	private String type;$/;"	f	class:Pet	file:
+unSerial	src/main/java/tree/SerialTree.java	/^	private static TreeNode unSerial(Queue<String> queue){$/;"	m	class:SerialTree	file:
+unSerial	src/main/java/tree/SerialTree.java	/^	public static TreeNode unSerial(String src){$/;"	m	class:SerialTree
+unfromedSum	src/main/java/other/UnformedSum.java	/^	private int unfromedSum(int[] arr) {$/;"	m	class:UnformedSum	file:
+unfromedSum2	src/main/java/other/UnformedSum.java	/^	private int unfromedSum2(int[] arr) {$/;"	m	class:UnformedSum	file:
+unfromedSum3	src/main/java/other/UnformedSum.java	/^	private int unfromedSum3(int[] arr){$/;"	m	class:UnformedSum	file:
+value	src/main/java/model/LinkNode.java	/^	private Integer value;$/;"	f	class:LinkNode	file:
+value	src/main/java/model/TreeNode.java	/^	private int value;$/;"	f	class:TreeNode	file:
+walkTo	src/main/java/matrix/MinPathValue.java	/^	public void walkTo(int pre, int toR, int toC, int[][] m, int[][] map, Queue<Integer> rQ, Queue<Integer> cQ) {$/;"	m	class:MinPathValue
+warn	gradlew	/^warn ( ) {$/;"	f
+win9xME_args	gradlew.bat	/^:win9xME_args$/;"	l
+win9xME_args_slurp	gradlew.bat	/^:win9xME_args_slurp$/;"	l
+window.onload	build/reports/tests/js/report.js	/^    }$/;"	f
+zeroNum1	src/main/java/other/FactrialLastZeroNum.java	/^	public int zeroNum1(int num){$/;"	m	class:FactrialLastZeroNum
+zeroNum2	src/main/java/other/FactrialLastZeroNum.java	/^	public int zeroNum2(int num){$/;"	m	class:FactrialLastZeroNum
